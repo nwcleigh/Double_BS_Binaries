@@ -89,6 +89,9 @@
 \newcommand{\RSun}{\mbox{R$_\odot$}}
 \newcommand{\LSun}{\mbox{L$_\odot$}}
 
+\def\apgt{\ {\raise-.5ex\hbox{$\buildrel>\over\sim$}}\ }
+\def\aplt{\ {\raise-.5ex\hbox{$\buildrel<\over\sim$}}\ }
+
 \def\Simon#1{{\bf {\color{red}[#1 -- Simon]}}}
 \def\simon#1{{\bf {\color{red}[#1 -- Simon]}}}
 \def\del#1{{\bf {\sout{#1}}}}
@@ -257,9 +260,9 @@ post-mass transfer double BS tertiary: (1) For the outer tertiary
 orbit, the initial orbital period should lie between 220 days
 $\lesssim$ P$_{\rm out}$ $\lesssim$ 1100 days \simon{Do you think that
   the initial binary could be as large as 1400 days?}, assuming
-initial masses for the inner binary components of m$_{\rm 1} =$ 1.1
-M$_{\odot}$ and m$_{\rm 2} =$ 0.9 M$_{\odot}$ and an outer tertiary
-mass of m$_{\rm 3} = 1.4$ M$_{\odot}$.  After Roche-lobe overflow, the
+initial masses for the inner binary components of $m_{\rm 1} = 1.1$
+M$_{\odot}$ and $m_{\rm 2} =$ 0.9 M$_{\odot}$ and an outer tertiary
+mass of $m_{\rm 3} = 1.4$ M$_{\odot}$.  After Roche-lobe overflow, the
 outer star turns into a white dwarf (WD). There is a correlation
 bewteen the mass of this WD and the outer orbital period in the sense
 that a more massive white dwarfs will be on a wider orbit.  (3) The
@@ -292,14 +295,15 @@ main-sequence turn-off (MSTO) in a cluster colour-magnitude diagram
 primary channels for BS formation have been proposed; mass transfer
 from an evolved donor on to a main-sequence star in a binary star
 system
-\citep[e.g.][]{mccrea64,997A&A...328..143P,knigge09,mathieu09,leigh11,geller11,geller12,gosnell14,gosnell15},
+\citep[e.g.][]{mccrea64,1997A&A...328..143P,knigge09,mathieu09,leigh11,geller11,geller12,gosnell14,gosnell15},
 and direct stellar collisions involving main-sequence stars possibly
 mediated via binaries
 \citep[e.g.][]{hills75,1997A&A...328..130P,shara97,leigh07,leigh11,leigh13,hypki13,2018arXiv181100058P}.
 Other possible, albeit related, formation mechanisms include mergers
-of compact main-sequence binaries (ms, ms), and mergers of the inner
-binaries \cite{+++} of hierarchical triple star systems induced by Lidov-Kozai
-oscillations coupled with tidal damping \citep[e.g.][]{perets09}.
+of close main-sequence binaries (ms, ms) \cite{2018arXiv181100058P},
+and mergers of the inner binaries of hierarchical triple star systems
+induced by Lidov-Kozai oscillations coupled with tidal damping
+\citep[e.g.][]{perets09}.
 
 In spite of these specific predictions for the expected properties of
 BSs formed from each of the above production mechanisms, there exist
@@ -344,7 +348,7 @@ So, how did Binary 7782 form?
 We propose a formation channel for Binary 7782, and compact double BS
 binaries in general, which involves mass transfer from an outer
 tertiary companion on to an inner (ms, ms) binary.  In
-section~\ref{dyn}, we constrain the range of initial (i.e., pre-mass
+section~\ref{sect:dyn}, we constrain the range of initial (i.e., pre-mass
 transfer) orbital parameters for a hypothetical outer tertiary
 companion, using a combination of dynamical and stellar
 evolution-based constraints.  In Section~\ref{sims} we present the
@@ -356,10 +360,11 @@ transfer.  We summarize and discuss the implications of our results
 for compact double BS binaries and, more generally, mass transfer in
 stellar triples in Section~\ref{discussion}.
 
-\section{Constraints on the present-day orbital parameters for a hypothesized tertiary companion in the compact BS Binary 7782} \label{dyn}
+\section{Constraints on the present-day orbital parameters for a hypothesized
+         tertiary companion in the compact BS Binary 7782} \label{sect:dyn}
 
-Consider a hierarchical triple system with component masses m$_{\rm
-  1}$ and m$_{\rm 2}$ for the inner binary, and mass m$_{\rm 3}$ for
+Consider a hierarchical triple system with component masses $m_{\rm
+  1}$ and $m_{\rm 2}$ for the inner binary, and mass $m_{\rm 3}$ for
 the outer tertiary companion.  The inner and outer binary orbital
 semi-major axes are denoted a$_{\rm in}$ and a$_{\rm out}$,
 respectively.  For clarity we now assume both orbits, the inner as
@@ -402,14 +407,9 @@ tertiary companion, $a_{\rm c}$ is the semi-major axis of the orbit
 about the inner binary corresponding to the circularization radius and
 v$_{\rm orb,c}$ is the orbital velocity at $a_{\rm c}$.  The distance
 from the center of mass corresponding to the outer tertiary companion
-defined by the Roche lobe is given by Equation 2 in \citep{eggleton83}.
-%\begin{equation}
-%\label{eqn:roche}
-%R_{\rm L} = \frac{0.49q^{2/3}}{0.6q^{2/3} + {\rm ln}(1 + q^{1/3})}a_{\rm out},
-%\end{equation}
-%where the mass ratio q is defined as q $=$ m$_{\rm 3}$/(m$_{\rm 1} +$
-%m$_{\rm 2}$).  
-Combining Equation 2 in \citet{eggleton83} (with mass ratio q $=$ m$_{\rm 3}$/(m$_{\rm 1} +$m$_{\rm 2}$)) with
+defined by the Roche lobe is given by Equation 2 in
+\citep{eggleton83}.  Combining Equation 2 in \citet{eggleton83} (with
+mass ratio q $=$ m$_{\rm 3}$/(m$_{\rm 1} +$m$_{\rm 2}$)) with
 Equation~\ref{eqn:specangmom1}, we can solve for the circularization
 radius as a function of a$_{\rm out}$ and the assumed stellar masses:
 \begin{equation}
@@ -423,7 +423,7 @@ Figure~\ref{fig:fig2} shows the parameter space in the P$_{\rm
   out}$-P$_{\rm in}$-plane for Binary 7782.  We assume initial
 component masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$ and $m_{\rm 2}
 = 0.9$ M$_{\rm \odot}$ for the inner binary components, and $m_{\rm 3}
-= 1.4 M$_{\rm \odot}$ for the outer tertiary.  We compare the
+= 1.4 $M$_{\rm \odot}$ for the outer tertiary.  We compare the
 circularization radius to the semi-major axis of the inner binary, for
 which we require $a_{\rm c} > a_{\rm in}$, after folding in all
 constraints from the requirements for dynamical stability (listed in
@@ -499,13 +499,13 @@ In Fig.\,\ref{fig:tertiarymass_vs_size} we present..
 
 \subsection{AMUSE} \label{amuse}
 
-We perform simulations of a triple star system for which the outer star
-overfills its Roche lobe while the inner binary remains detached. The
-calculations start by evolving the three stars to the same age, which
-is selected such that the outer-most star fills its Roche lobe.
-Constraints for the initial conditions are derived in the previous
-\S\, but in \S\,\ref{Sect:ICs} we summarize the adopted initial
-conditions for the simulations.
+We perform simulations of a triple star system for which the outer
+star overfills its Roche lobe while the inner binary remains
+detached. The calculations start by evolving the three stars to the
+same age, which is selected such that the outer-most star fills its
+Roche lobe.  First order constraints for the initial conditions are
+derived in the previous \S\, but in \S\,\ref{Sect:ICs} we summarize
+the adopted initial conditions for the more detailed simulations.
 
 Roche-lobe overflow in triples is modeled using a coupled integrator
 to follow the complex hydrodynamics of the mass transfer from the
@@ -516,12 +516,13 @@ integrator \texttt{Huayno} \citep{2012NewA...17..711P}. The
 hydrodynamics is performed with the smoothed-particles hydrodynamics
 code \texttt{Gadget2} \citep{2000ascl.soft03001S}, using an adiabatic
 equation of state.  The two inner binary stars are treated as point
-masses, but we allow them to accrete gas from the outer star.  This is
-realized using sink-particles that co-move with the mass points in the
-gravity code. While the inner two stars accrete mass, they also
-accrete the corresponding amount of angular momentum from the gas.
-The the N-body integrator accounts of this appropriately.  For the
-radius of the sink particles we adopt $2 R_\odot$ for both stars.
+masses, but we allow them to accrete mass and angular momentum from
+the gas liberated by the outer star.  This is realized using
+sink-particles that co-move with the mass points in the gravity
+code. While the inner two stars accrete mass, they also accrete the
+corresponding amount of angular momentum from the gas.  The the N-body
+integrator accounts of this appropriately.  For the radius of the sink
+particles we adopt $2 R_\odot$ for both stars.
 
 The N-body code as well as the hydrodynamics solver operate using
 their own internal time-steps. The coupling between the two codes is
@@ -541,37 +542,41 @@ the parameters of the system we study, but typically we achieve
 converged solutions when this time step is about a fraction of 1/100
 of the inner binary orbital period.
 
-++++
-
 \subsection{Initial Conditions} \label{Sect:ICs}
 
 We adopt initial component masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$
 and $m_{\rm 2} = 0.9$ M$_{\rm \odot}$ for the inner binary components,
-and $m_{\rm 3} = 1.2$ M$_{\rm \odot}$ for the tertiary star.  We
-evolve the 1.2\,\MSun\, star using the MESA stellar evolution code
-\cite{2011ApJS..192....3P} to a radius of about 1\,au.  By this time
-the star has lost 0.13\,\MSun\, via a stellar wind.  We turned the
-stellar evolution model, structure and temperature composition, into a
-smoothed-particles representation using the module {\tt
-  StellarModelInSPH} in AMUSE (see chapter 4 in \cite{AMUSE}).  We
-replace the stellar core by a point mass to precent that all the
-resolution will be in the central portion of the star instead of the
-envelope. In a following step we relax the star using the
-hydrodynamics solver. This relaxation process is realized in 100 steps
-during which we reduce the velocity dispersion of individual SPH
+and between $m_{\rm 3} = 1.2$ and $m_{\rm 3} = 1.4$ M$_{\rm \odot}$
+for the tertiary star.  We evolve the tertiary star using the MESA
+stellar-evolution code \cite{2011ApJS..192....3P} to a radius of about
+1\,au.  By this time the star has lost 0.13\,\MSun\, via a stellar
+wind.  We subsequently turn the stellar-evolution model, structure,
+temperature and composition, into a smoothed-particles representation
+using the module {\tt StellarModelInSPH} in AMUSE (see chapter 4 in
+\cite{AMUSE}).  We replace the stellar core by a point mass to prevent
+that all the resolution will be in the central portion of the star
+instead of the envelope. In a following step we relax the star using
+the hydrodynamics solver. This relaxation process is realized in 100
+steps during which we reduce the velocity dispersion of individual SPH
 particles to a glasseas structure \citep[see, for example, \S\,3.3 on
-  page 40 in][]{1994astro.ph.10043W}.
-
+  page 40 in][]{1994astro.ph.10043W}. During this procedure the
+gaseous envelope of the star tends to expand by about 20\%.  To
+detemrine the radius of the eventual star we calculate Lagrangian
+radii and use the distance to the stellar center which contains 90\%
+of it's mass. This 90\% mass-radius we consider as the stellar radius,
+and match it with the Roche-lobe of the outer orbit.
 
 With these parameters the orbital separation of the outer binary
-becomes 3.86\,au, and the mass loss has driven a slight eccentricity
-deviating from an initially circular orbit to about 0.0082 at the
-moment of Roche-lobe overflow. We choose a relative initial
-inclination of $i = 9^\circ$ between the inner and the outer orbits,
-since observed stellar triples composed of low-mass stars have been
-observed to favor co-planar configurations \citep{moe18}.
-%NL: What are the initial orbital separations?  Why this choice of initial inclination? - I added a sentence and reference to justify it.
-
+becomes $\sim 3.86$\,au, and we adopt the outer orbit to be circular.
+We choose a relative initial inclination between the inner and the
+outer orbit of $i = 0^\circ$, $i = 9^\circ$ and $i = 180^\circ$.  The
+first two choices are motivated by observed stellar triples composed
+of low-mass stars which have been observed to favor co-planar
+configurations \citep{moe18}. To test the effect of a retrogade
+orbiting triple we include the $i = 180^\circ$ case.
+% NL: What are the initial orbital separations?  Why this choice of
+% initial inclination? - I added a sentence and reference to justify
+% it.
 In fig.\,\ref{fig:topview_at_t0} we present a top view of the triple
 system at the onset of Roche-lobe overflow.
 
@@ -599,18 +604,18 @@ after 1000\,days of evolution.
 \label{fig:topview_at_t1000day}}
 \end{figure}
 
-In fig.\,\ref{fig:mass_evolution_for_M1.2M1.1M0.9a02e00i09}
+In fig.\,\ref{fig:mass_vs_semimajor_axis}
 
 \begin{figure}[ht!]
-  \includegraphics[width=\columnwidth]{fig_MvsTime_N80k_M012R100RSun1109MSun_a02au.pdf}
-\caption{Evolution of the masses (normalized to those at the moment of
-  RLOF) for each of the three stars in the simulated triple as a function of
-  time for the first 1000\,days. (see fig.\,\ref{fig:topview_at_t0}
-  for a face-on representation of the initial conditions and
-  fig.\,\ref{fig:topview_at_t1000day} for the final conditions}.  The
-green and orange dashed curves give the masses of the inner two stars,
-whereas the solid blue curve is the mass of the outer most star.
-\label{fig:mass_evolution_for_M1.2M1.1M0.9a02e00i09}
+  \includegraphics[width=\columnwidth]{fig_mass_vs_semimajor_axis.pdf}
+  \caption{Evolution of the total mass of the inner binary as a
+    function of the orbital separation for four calculations with
+    somewhat different initial conditions (see legend).  The initial
+    binary for the orange curve is presented in
+    fig.\,\ref{fig:topview_at_t0}, and in
+    fig.\,\ref{fig:topview_at_t1000day} we present the final
+    conditions.
+\label{fig:mass_vs_semimajor_axis}}
 \end{figure}
 
 The orbital evolution of the inner binary circumreferenced by a disk
@@ -618,11 +623,12 @@ tends to evove by the accretion of mass and angular momentum. As a
 consequence, the two stars in the binary accumulate mass, and their
 orbit shrinks. The orbital evolution can be approximated, to first order, by:
 \begin{equation}
-  d\ln a \over dt   = - d\ln m_{\rm in} \over dt,
+  {d\ln a \over dt}   = {-d\ln m_{\rm in} \over dt},
 \end{equation}
 where $a$ and $m_{\rm in}$ are the semimajor-axis and total mass in
-the inner binary.  In the simulations we measure ${\dln a \over dt}
+the inner binary.  In the simulations we measure ${d\ln a \over dt}
 \simeq -0.0843$\,Myr$^{-1}$.
+
 
 \section{Summary and Discussion} \label{discussion}
 
@@ -630,7 +636,7 @@ In this Letter, we have proposed a formation scenario for double BS equal-mass c
 
 \begin{enumerate}
 
-\item For the predicted outer tertiary orbit, the present-day semi-major axis should lie between 220 days $\lesssim$ P$_{\rm out}$ $\lesssim$ 1100 days, assuming initial masses for the inner binary components of m$_{\rm 1} =$ 1.1 M$_{\odot}$ and m$_{\rm 2} =$ 0.9 M$_{\odot}$ and an outer tertiary mass of m$_{\rm 3} =$ 1.4 M$_{\odot}$.
+\item For the predicted outer tertiary orbit, the present-day semi-major axis should lie between 220 days $\lesssim$ P$_{\rm out}$ $\lesssim$ 1100 days, assuming initial masses for the inner binary components of $m_{\rm 1} = 1.1$ M$_{\odot}$ and $m_{\rm 2} = 0.9$ M$_{\odot}$ and an outer tertiary mass of $m_{\rm 3} = 1.4 $M$_{\odot}$.
 
 \item Larger final WD masses, and hence core masses for the donor at the time of mass transfer, should correspond to larger final outer orbital periods for the tertiary.  This is because the Roche radius is larger for larger outer orbital periods, such that the donor must evolve to larger radii, and hence core masses, before the onset of mass transfer.
 
