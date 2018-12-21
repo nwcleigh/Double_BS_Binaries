@@ -358,7 +358,7 @@ hypothetical triple system, computed using the
 evolution of the inner and outer orbital parameters during mass
 transfer.  We summarize and discuss the implications of our results
 for compact double BS binaries and, more generally, mass transfer in
-stellar triples in Section~\ref{discussion}.
+stellar triples in Section~\ref{sect:discussion}.
 
 \section{Constraints on the present-day orbital parameters for a hypothesized
          tertiary companion in the compact BS Binary 7782} \label{sect:dyn}
@@ -497,15 +497,64 @@ In Fig.\,\ref{fig:tertiarymass_vs_size} we present..
 
 \section{Numerical Simulations} \label{sims}
 
-\subsection{AMUSE} \label{amuse}
-
 We perform simulations of a triple star system for which the outer
 star overfills its Roche lobe while the inner binary remains
 detached. The calculations start by evolving the three stars to the
 same age, which is selected such that the outer-most star fills its
 Roche lobe.  First order constraints for the initial conditions are
-derived in the previous \S\, but in \S\,\ref{Sect:ICs} we summarize
-the adopted initial conditions for the more detailed simulations.
+derived in the previous \S. In the following two sections we describe
+how we setup these simulations and then discuss the results. The
+calculations are performed using the
+
+\subsection{Setting-up the simulations}
+
+We adopt initial masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$ and
+$m_{\rm 2} = 0.9$ M$_{\rm \odot}$ for the inner binary components, and
+between $m_{\rm 3} = 1.2$ and $m_{\rm 3} = 1.4$ M$_{\rm \odot}$ for
+the tertiary star.  We evolve the tertiary star using the MESA
+stellar-evolution code \cite{2011ApJS..192....3P} to a radius of about
+1\,au, at which point we assume it to overfill it's Roche lobe.  By
+this time the star has lost 0.13\,\MSun\, via a stellar wind.
+
+The stellar-evolution model, its structure, temperature and
+composition profiles are turned into a smoothed-particles
+representation using the module {\tt StellarModelInSPH} in AMUSE (see
+chapter 4 in \cite{AMUSE}).  We follow the same procedure as described
+in \cite{2014MNRAS.438.1909D} for simulating the future of the triple
+system \chi Tau (HD 97131) in which the outer-most star overfills it
+Roche lobe to an inner binary.  After generating the hydrodynamical
+representation of the donor star we replace the stellar core by a
+point mass to prevent the majority of the resolution to be confined in
+the star's central region.  In a following step we relax the star
+using the hydrodynamics solver. This relaxation process is realized in
+100 steps during which we reduce the velocity dispersion of individual
+SPH particles to a glasseas structure \citep[see, for example, \S\,3.3
+  on page 40 in][]{1994astro.ph.10043W}. During this procedure the
+gaseous envelope of the star tends to expand by about 20\%.  To
+detemrine the radius of the eventual star we calculate Lagrangian
+radii and use the distance to the stellar center which contains 90\%
+of it's mass. This 90\% mass-radius we consider as the stellar radius,
+and match it with the Roche-lobe of the outer orbit.
+
+With these parameters the orbital separation of the outer binary
+becomes $\sim 3.86$\,au, and we adopt the outer orbit to be circular.
+We choose a relative initial inclination between the inner and the
+outer orbit of $i = 0^\circ$, $i = 9^\circ$, $i = 90^\circ$ and $i =
+180^\circ$.  The first two choices are motivated by observed stellar
+triples composed of low-mass stars which have been observed to favor
+co-planar configurations \citep{moe18}. To test the effect of highly
+inclined and retrogade orbits we include the $i = 90^\circ$ and $i =
+180^\circ$ cases.  In fig.\,\ref{fig:topview_at_t0} we present a top
+view of the triple system at the onset of Roche-lobe overflow.
+
+\begin{figure}[ht!]
+  \includegraphics[width=\columnwidth]{fig_t0_N80000_M012MSun1109MSun_a02au_e00_inc9deg.pdf}
+\caption{Top view of the simulated triple system in which the outer
+  star over-fills its Roche-lobe (represented by 80000\,sph particles
+  and a core particle of 0.4\,\MSun (blue bullet). The two companion
+  stars are represented as red bullets (to the right).
+\label{fig:topview_at_t0}}
+\end{figure}
 
 Roche-lobe overflow in triples is modeled using a coupled integrator
 to follow the complex hydrodynamics of the mass transfer from the
@@ -520,9 +569,10 @@ masses, but we allow them to accrete mass and angular momentum from
 the gas liberated by the outer star.  This is realized using
 sink-particles that co-move with the mass points in the gravity
 code. While the inner two stars accrete mass, they also accrete the
-corresponding amount of angular momentum from the gas.  The the N-body
-integrator accounts of this appropriately.  For the radius of the sink
-particles we adopt $2 R_\odot$ for both stars.
+corresponding amount of angular momentum from the gas (see chapter 5
+in \cite{AMUSE}).  The the N-body integrator accounts of this
+appropriately.  For the radius of the sink particles we adopt $10
+R_\odot$ for both stars.
 
 The N-body code as well as the hydrodynamics solver operate using
 their own internal time-steps. The coupling between the two codes is
@@ -542,57 +592,13 @@ the parameters of the system we study, but typically we achieve
 converged solutions when this time step is about a fraction of 1/100
 of the inner binary orbital period.
 
-\subsection{Initial Conditions} \label{Sect:ICs}
-
-We adopt initial component masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$
-and $m_{\rm 2} = 0.9$ M$_{\rm \odot}$ for the inner binary components,
-and between $m_{\rm 3} = 1.2$ and $m_{\rm 3} = 1.4$ M$_{\rm \odot}$
-for the tertiary star.  We evolve the tertiary star using the MESA
-stellar-evolution code \cite{2011ApJS..192....3P} to a radius of about
-1\,au.  By this time the star has lost 0.13\,\MSun\, via a stellar
-wind.  We subsequently turn the stellar-evolution model, structure,
-temperature and composition, into a smoothed-particles representation
-using the module {\tt StellarModelInSPH} in AMUSE (see chapter 4 in
-\cite{AMUSE}).  We replace the stellar core by a point mass to prevent
-that all the resolution will be in the central portion of the star
-instead of the envelope. In a following step we relax the star using
-the hydrodynamics solver. This relaxation process is realized in 100
-steps during which we reduce the velocity dispersion of individual SPH
-particles to a glasseas structure \citep[see, for example, \S\,3.3 on
-  page 40 in][]{1994astro.ph.10043W}. During this procedure the
-gaseous envelope of the star tends to expand by about 20\%.  To
-detemrine the radius of the eventual star we calculate Lagrangian
-radii and use the distance to the stellar center which contains 90\%
-of it's mass. This 90\% mass-radius we consider as the stellar radius,
-and match it with the Roche-lobe of the outer orbit.
-
-With these parameters the orbital separation of the outer binary
-becomes $\sim 3.86$\,au, and we adopt the outer orbit to be circular.
-We choose a relative initial inclination between the inner and the
-outer orbit of $i = 0^\circ$, $i = 9^\circ$ and $i = 180^\circ$.  The
-first two choices are motivated by observed stellar triples composed
-of low-mass stars which have been observed to favor co-planar
-configurations \citep{moe18}. To test the effect of a retrogade
-orbiting triple we include the $i = 180^\circ$ case.
-% NL: What are the initial orbital separations?  Why this choice of
-% initial inclination? - I added a sentence and reference to justify
-% it.
-In fig.\,\ref{fig:topview_at_t0} we present a top view of the triple
-system at the onset of Roche-lobe overflow.
-
-\begin{figure}[ht!]
-  \includegraphics[width=\columnwidth]{fig_t0_N80000_M012MSun1109MSun_a02au_e00_inc9deg.pdf}
-\caption{Top view of the simulated triple system in which the outer star over-fills its Roche-lobe
-  (represented by 80000\,sph particles and a core particle of
-  0.4\,\MSun (blue bullet). The two companion stars are represented as
-  red bullets (to the right).
-\label{fig:topview_at_t0}}
-\end{figure}
-
 \section{Results} \label{results}
 
-In fig.\,\ref{fig:topview_at_t1000day} we show the same triple 
-after 1000\,days of evolution.
+In fig.\,\ref{fig:topview_at_t1000day} we show the same triple after
+1000\,days of evolution.
+
+\cite{2018arXiv181208175M}
+
 
 \begin{figure}[ht!]
   \includegraphics[width=0.49\columnwidth]{lagrange_points_and_sph.pdf}
@@ -629,18 +635,75 @@ where $a$ and $m_{\rm in}$ are the semimajor-axis and total mass in
 the inner binary.  In the simulations we measure ${d\ln a \over dt}
 \simeq -0.0843$\,Myr$^{-1}$.
 
+with the accretion of mass both stars in the inner binary also accrete
+angular momentum.  By the end of the simulation the spins of the two
+blue stragglers is aliened along the orbital angular momeumt axis with
+an angle of $90.0^\circ$ for the primary star and $93.4^\circ$ for the
+secondary star with respect to the argument of pericenter of the inner
+orbit.  By the end of the simulations the spin of the primary is about
+50.5 per day, and 41.5 per day for the secondary star. But by this
+time both stars have accreted only a small portion, and we expect that
+the final spins of both stars is close to break-up.
 
-\section{Summary and Discussion} \label{discussion}
+\section{Discussion} \label{sect:discussion}
 
-In this Letter, we have proposed a formation scenario for double BS equal-mass compact binaries, as observed for Binary 7782 in the old open cluster NGC 188.  The proposed scenario involves mass transfer from an evolved outer tertiary companion, which is accreted by the inner binary via a circumbinary disk.  Our scenario makes several predictions for the observed properties of a hypothetical outer triple companion, now a WD.  These are:
+In order to study the T-tauri binaries V4046 Sgr and DQ Tau
+\cite{2011MNRAS.413.2679D} perform a series of 2D hydrodynamical
+simulations of circum binary disks.  They studied the two observed
+T-tauri system V4046 Sgr and DQ~Tau.
+
+For V4046 Sgr, for which the two stars have comparable masses as in
+our calculation in an ciruclar orbit with a period of only 2.4 days
+they find tha the inner binary accretates at a rate of $\sim
+0.028$\,\MSun/Myr.  For DQ~Taur, which is composed of lower-mass stars
+($m_1 = m_2 \seimq 0.55$\,\MSun) in an eccentric ($e\simeq 0.556$)
+orbit of $\sim 15.8$\,days they find and accretion rate onto the inner
+binary of $\sim 0.027$\,\MSun/Myr.  These values are in the same range
+as in our calculations, which result in an accretion rate of the inner
+binary of 0.027--0.058\,\MSun/Myr (on average measurd over a period of
+about 3000 days).  The highest accretion rate we obtain for the
+simulations with an eccentric inner orbit. Here we applied a small
+correction to compensate for the larger accretion radii adopted for
+the two stars of 10\,\RSun\, compared to 6\,\RSun\, in
+\cite{2011MNRAS.413.2679D}. Interestingly, however,
+\cite{2011MNRAS.413.2679D} find that the primary star in V4046 Sgr
+accretes at an 8\% higher rate than the secondary star, whereas in our
+case the secondary star accretes at a higher rate than the primary
+star by about 1\% to 12\%.  Higher accretion rates in the secondary
+star are realized for eccentric and retrogade inner orbits.
+
+\section{Summary} \label{sect:conclusions}
+
+In this Letter, we have proposed a formation scenario for double BS
+equal-mass compact binaries, as observed for Binary 7782 in the old
+open cluster NGC 188.  The proposed scenario involves mass transfer
+from an evolved outer tertiary companion, which is accreted by the
+inner binary via a circumbinary disk.  Our scenario makes several
+predictions for the observed properties of a hypothetical outer triple
+companion, now a WD.  These are:
 
 \begin{enumerate}
 
-\item For the predicted outer tertiary orbit, the present-day semi-major axis should lie between 220 days $\lesssim$ P$_{\rm out}$ $\lesssim$ 1100 days, assuming initial masses for the inner binary components of $m_{\rm 1} = 1.1$ M$_{\odot}$ and $m_{\rm 2} = 0.9$ M$_{\odot}$ and an outer tertiary mass of $m_{\rm 3} = 1.4 $M$_{\odot}$.
+\item For the predicted outer tertiary orbit, the present-day
+  semi-major axis should lie between 220 days $\lesssim$ P$_{\rm out}$
+  $\lesssim$ 1100 days, assuming initial masses for the inner binary
+  components of $m_{\rm 1} = 1.1$ M$_{\odot}$ and $m_{\rm 2} = 0.9$
+  M$_{\odot}$ and an outer tertiary mass of $m_{\rm 3} = 1.4
+  $M$_{\odot}$.
 
-\item Larger final WD masses, and hence core masses for the donor at the time of mass transfer, should correspond to larger final outer orbital periods for the tertiary.  This is because the Roche radius is larger for larger outer orbital periods, such that the donor must evolve to larger radii, and hence core masses, before the onset of mass transfer.
+\item Larger final WD masses, and hence core masses for the donor at
+  the time of mass transfer, should correspond to larger final outer
+  orbital periods for the tertiary.  This is because the Roche radius
+  is larger for larger outer orbital periods, such that the donor must
+  evolve to larger radii, and hence core masses, before the onset of
+  mass transfer.
 
-\item For the inner binary, the rotational axes of the BSs should be aligned with each other and the orbital plane of the outer tertiary WD.  This is because accretion onto the BS progenitors proceeds via an accretion disk, that forms at the circularization radius and that has an orbital plane aligned with that of the outer tertiary.
+\item For the inner binary, the rotational axes of both the BSs should
+  be aligned with each other and the orbital plane of the outer
+  tertiary WD.  This is because accretion onto the BS progenitors
+  proceeds via an accretion disk, that forms at the circularization
+  radius and that has an orbital plane aligned with that of the outer
+  tertiary.
 
 \item The BSs in the inner binary should have roughly equal masses,
   independent of their initial masses.  This is because it is the
@@ -656,7 +719,13 @@ In this Letter, we have proposed a formation scenario for double BS equal-mass c
   oxygen and helium.  If the donor is an AGB star, it will be enriched
   in mostly s-process elements.
 
-\item Twin BSs in compact binaries formed from the proposed mechanism should be more frequent in younger clusters with ages $\lesssim$ 4-6 Gyr.  This is because clusters with a main-sequence turn-off mass $\lesssim$ 1.2 M$_{\odot}$ have convective envelopes \citep[e.g.][]{iben91,maedoer09}, and a radiative envelope for the donor in a mass transferring binary ensures stable accretion on to the accretor.
+\item Twin BSs in compact binaries formed from the proposed mechanism
+  should be more frequent in younger clusters with ages $\lesssim$ 4-6
+  Gyr.  This is because clusters with a main-sequence turn-off mass
+  $\lesssim$ 1.2 M$_{\odot}$ have convective envelopes
+  \citep[e.g.][]{iben91,maedoer09}, and a radiative envelope for the
+  donor in a mass transferring binary ensures stable accretion on to
+  the accretor.  \simon{Can we quantify this?}
 
 \end{enumerate}
 
@@ -667,13 +736,34 @@ that the mass transfer will be maximally conservative, such that the
 accretion stream will be maximally stable, accreting at a stable and
 roughly constant rate \citep[e.g.][]{iben91}.
 
-Finally, in future work, we intend to explore the implications of the mechanism proposed here for other types of stellar triples.  Our results highlight that specific theoretical predictions can often be made.  For example, if two white dwarfs form the inner compact binary, than circumbinary accretion could push one of them above the Chandrasekhar mass limit.  Upon explosion, its WD companion would be ejected at roughly the orbital velocity at the time of explosion, producing a hypervelocity WD.  This predicts hot hypervelocity WDs with masses very close to the Chandrasekhar mass limit for this scenario.  Similarly, if the two WDs are replaced with two neutron stars (NSs), then one NS could accrete to surpass the critical supernova limit, upon which time it explodes to become a black hole and receives a strong natal kick.  The NS companion would have a very comparable mass to the newly formed black hole progenitor at the time of explosion, and could potentially be used to constrain the maximum NS mass.  More work needs to be done here to evaluate whether or not there is any parameter space for the products of this scenario that will allow for a mass determination for the original NS companion in the putative compact NS-NS binary.
+\simon{Why would we try to sell already what we plan on doing. I'de prefer to keep this quet.}
+Finally, in future work, we intend to explore the implications of the
+mechanism proposed here for other types of stellar triples.  Our
+results highlight that specific theoretical predictions can often be
+made.  For example, if two white dwarfs form the inner compact binary,
+than circumbinary accretion could push one of them above the
+Chandrasekhar mass limit.  Upon explosion, its WD companion would be
+ejected at roughly the orbital velocity at the time of explosion,
+producing a hypervelocity WD.  This predicts hot hypervelocity WDs
+with masses very close to the Chandrasekhar mass limit for this
+scenario.  Similarly, if the two WDs are replaced with two neutron
+stars (NSs), then one NS could accrete to surpass the critical
+supernova limit, upon which time it explodes to become a black hole
+and receives a strong natal kick.  The NS companion would have a very
+comparable mass to the newly formed black hole progenitor at the time
+of explosion, and could potentially be used to constrain the maximum
+NS mass.  More work needs to be done here to evaluate whether or not
+there is any parameter space for the products of this scenario that
+will allow for a mass determination for the original NS companion in
+the putative compact NS-NS binary.
 
 \acknowledgments
 
 N.W.C.L. acknowledges support from a Kalbfleisch Fellowship at the
 American Museum of Natural History.  SPZ would like to thank Norm
-Murray and CITA for their hospitality during my long-term visit.
+Murray and CITA for their hospitality during my long-term visit.  This
+work was supported by the Netherlands Research School for Astronomy
+(NOVA), NWO (grant \# 621.016.701 [LGM-II]).
 
 \bibliographystyle{apj}
 \bibliography{BBS7782}
