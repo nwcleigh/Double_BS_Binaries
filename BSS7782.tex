@@ -346,32 +346,36 @@ So, how did Binary 7782 form?
 
 We propose a formation channel for Binary 7782, and compact double BS
 binaries in general, which involves mass transfer from an outer
-tertiary companion on to an inner (MS-MS) binary.  In
-section~\ref{sect:dyn}, we constrain the range of initial (i.e., pre-mass
-transfer) orbital parameters for a hypothetical outer tertiary
-companion, using a combination of dynamical and stellar
+tertiary companion on to an inner binary composed to two main-sequence
+stars.  In section~\ref{sect:dyn}, we constrain the range of initial
+(i.e., pre-mass transfer) orbital parameters for a hypothetical outer
+tertiary companion, using a combination of dynamical and stellar
 evolution-based constraints.  In Section~\ref{sims} we present the
-numerical simulations used to study the mass transfer process in our
-hypothetical triple system, computed using the
-\texttt{AMUSE}\cite{AMUSE} software package, in order to study the
-evolution of the inner and outer orbital parameters during mass
-transfer.  We summarize and discuss the implications of our results
-for compact double BS binaries and, more generally, mass transfer in
-stellar triples in Section~\ref{sect:discussion}.
+numerical simulations used to study the mass transfer process triple
+system with orbital parameters that, according to our expectations,
+for promising progenitors for the twin BS 7782.  The calculations are
+performed using the Astrophysical Multipurpose Software Environment
+(\texttt{AMUSE} for short) \cite{AMUSE} with a combination of stellar
+evolution, hydrodynamical and gravitational simulations.  with these
+calculations we further constrain the possible range of initial
+parameters that naturally lead to twin BS with orbital parameters
+similar to the 7782 system.  We summarize and discuss the implications
+of our results for compact double BS binaries and, more generally,
+mass transfer in stellar triples in Section~\ref{sect:discussion}.
 
 \section{Constraints on the present-day orbital parameters for a hypothesized
          tertiary companion in the compact BS Binary 7782} \label{sect:dyn}
 
-Consider a hierarchical triple system with component masses $m_{\rm
-  1}$ and $m_{\rm 2}$ for the inner binary, and mass $m_{\rm 3}$ for
-the outer tertiary companion.  The inner and outer binary orbital
-semi-major axes are denoted a$_{\rm in}$ and a$_{\rm out}$,
-respectively.  For clarity we now assume both orbits, the inner as
-well as the outer, to have a small eccentricity and low inclination.
-These assumptions are also supported by the population of observed
-low-mass triples \cite{2010yCat..73890925T,moe18}.  This initial
-configuration for our assumed formation scenario for Binary 7782,
-described below, is depicted in Figure~\ref{fig:fig1}.
+In our scenario we start with a binary star with component masses
+$m_{\rm 1}$ and $m_{\rm 2}$ that is orbited tertiary of mass
+$m_3$. The inner and outer binary orbital semi-major axes are denoted
+a$_{\rm in}$ and a$_{\rm out}$, respectively.  For clarity we now
+assume both orbits, the inner as well as the outer, to have negligible
+eccentricity and low inclination.  These assumptions are also
+supported by the population of observed low-mass triples
+\cite{2010yCat..73890925T,moe18}.  This initial configuration for our
+assumed formation scenario for Binary 7782, described below, is
+depicted in Figure~\ref{fig:fig1}.
 
 \begin{figure}[ht!]
 \plotone{fig1.eps}
@@ -388,14 +392,18 @@ described below, is depicted in Figure~\ref{fig:fig1}.
 \label{fig:fig1}}
 \end{figure}
 
-We consider a scenario where the outer star is filling its Roche lobe
-and transfers mass to the inner binary.  The mass transfer stream
-gathers at the circularization radius a$_{\rm c}$, and forms a circumbinary disk
-around the inner binary.  Using conservation of angular momentum, we
-equate the specific angular momentum of the accreted mass at the inner
-Lagrangian point of the (outer) donor star to the final specific
-angular momentum of the accretion stream at the circularization radius
-about the inner binary, this results in
+According to our scenario $m_3 > m_1 > m_2$ and the outer orbit is
+sufficiently small that the tertiary star is filling its Roche lobe
+and transfers mass to the inner binary before it leaves the asumptotic
+giant branch. We constrain the inner orbit by requiring the triple
+system to be dynamicall stable, for which we adopt eq.\,90 in
+\cite{2001MNRAS.321..398M}.  While transferring mass, the accretion
+stream gathers around the inner binary at the circularization radius
+a$_{\rm c}$, and forms a circumbinary disk.  Using conservation of
+angular momentum, we equate the specific angular momentum of the
+accreted mass at the inner Lagrangian point of the (outer) donor star
+to the final specific angular momentum of the accretion stream at the
+circularization radius about the inner binary, this results in
 \begin{equation}
 \label{eqn:specangmom1}
 v_{\rm orb,3}(a_{\rm out} - R_{\rm L}) = v_{\rm orb,c}a_{\rm c},
@@ -404,11 +412,11 @@ where R$_{\rm L}$ is the radius of the Roche lobe of the outer
 tertiary companion, $a_{\rm c}$ is the semi-major axis of the orbit
 about the inner binary corresponding to the circularization radius and
 v$_{\rm orb,c}$ is the orbital velocity at $a_{\rm c}$.  The distance
-from the center of mass corresponding to the outer tertiary companion
-defined by the Roche lobe is given by Equation 2 in
-\citep{1983ApJ...268..368E}.  Combining Equation 2 in \citet{1983ApJ...268..368E} (with
-mass ratio q $=$ m$_{\rm 3}$/(m$_{\rm 1} +$m$_{\rm 2}$)) with
-Equation~\ref{eqn:specangmom1}, we can solve for the circularization
+from the center of mass corresponding to the tertiary defined by the
+Roche lobe is given by Equation 2 in \citep{1983ApJ...268..368E}.
+Combining Equation 2 in \citet{1983ApJ...268..368E} (with mass ratio q
+$=$ m$_{\rm 3}$/(m$_{\rm 1} +$m$_{\rm 2}$)) with
+Equation~\ref{eqn:specangmom1}, we solve for the circularization
 radius as a function of a$_{\rm out}$ and the assumed stellar masses:
 \begin{equation}
 \label{eqn:ac}
@@ -419,25 +427,28 @@ require that a$_{\rm in} <$ a$_{\rm c}$.
 
 Figure~\ref{fig:fig2} shows the parameter space in the P$_{\rm
   out}$-P$_{\rm in}$-plane for Binary 7782.  We assume initial
-component masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$ and $m_{\rm 2}
-= 0.9$ M$_{\rm \odot}$ for the inner binary components, and $m_{\rm 3}
-= 1.4 $M$_{\rm \odot}$ for the outer tertiary.  We compare the
+component masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$ and $m_{\rm 2} =
+0.9$ M$_{\rm \odot}$ for the inner binary components, and $m_{\rm 3} =
+1.4 $M$_{\rm \odot}$ for the outer tertiary.  We compare the
 circularization radius to the semi-major axis of the inner binary, for
 which we require $a_{\rm c} > a_{\rm in}$, after folding in all
 constraints from the requirements for dynamical stability (listed in
 the caption of Figure~\ref{fig:fig2}), an outer tertiary that is Roche
-lobe-filling, and a dynamically hard outer tertiary orbit.  Note that
-the range of plotted orbital periods P$_{\rm in}$ corresponding to a
-contact state for the inner binary lies outside the range of plotted
-values for $P_{\rm in}$ (for components with radii of roughly 1
-R$_{\odot}$), since it does not contribute significantly to
-constraining the outer orbital properties of a hypothesized outer WD
-tertiary).  The thick horizontal solid red line shows the allowed range
-of outer semi-major axes, after folding in all of the aforementioned
-criteria.  As is clear, this makes a relatively narrow prediction for
-the allowed ranges of outer tertiary orbits, namely 2.2 $\times$
+lobe-filling, and a dynamically hard outer tertiary orbit.  \simon{Why
+  do you consider it important to mention that the orbit is hard, and
+  for what environment did you consider this?}  Note that the range of
+plotted orbital periods P$_{\rm in}$ corresponding to a contact state
+for the inner binary lies outside the range of plotted values for
+$P_{\rm in}$ (for components with radii of roughly 1 R$_{\odot}$),
+since it does not contribute to constraining the outer orbital
+properties).  The thick horizontal solid red line shows the allowed
+range of outer semi-major axes, after folding in all of the
+aforementioned criteria.  These constraints result in a rather narrow
+range of initial conditions for the outer orbit, namely 2.2 $\times$
 10$^{2}$ days $\le$ P$_{\rm out}$ $\le$ 1.1 $\times$ 10$^3$ days, for
-our assumed final donor mass.
+which the tertiary star overfills its Roche lobe, the triple is (at
+least initially) dynamically stable and the accretion stream forms a
+gaseous ring around the inner binary.
 
 \begin{figure}[ht!]
 \plotone{fig2.eps}
@@ -494,27 +505,54 @@ our assumed final donor mass.
     triple. The minimal core mass associated with a stable triple is
     then indicated by the left-most vertikcal dotted line.  The
     orbital separation at which the donor star overfills its Roche
-    lobe is indicated with the light-blue curve. The top curve (dark
-    red) shows an estimate of the final orbit separation of the outer
-    star, and therefore of the final orbit of the white dwarf around
-    the inner twin blue straggler.  For core masses $\apgt
-    0.5$\,\MSun\, the final orbital separataion, after mass transfer,
-    is smaller than the initial orbit.  Here we adopted an initial
-    inner binary mass of (1.0+0.9)\,\MSun\, and a final twin-blue
-    straggler mass of (1.4+1.4)\,\MSun.
+    lobe is indicated with the light-blue curve. The top curve (brown)
+    shows an estimate of the final orbit separation of the outer star,
+    and therefore of the final orbit of the white dwarf around the
+    inner twin blue straggler.  For core masses $\apgt 0.5$\,\MSun\,
+    the final orbital separataion, after mass transfer, is smaller
+    than the initial orbit.  Here we adopted an initial inner binary
+    mass of (1.0+0.9)\,\MSun\, and a final twin-blue straggler mass of
+    (1.4+1.4)\,\MSun.
 \label{fig:tertiarymass_vs_size}}
 \end{figure}
 
-In Fig.\,\ref{fig:tertiarymass_vs_size} we present several
-characteristic sizes and orbital separations for the problem at hand.
-The red curves show the stellar radius upon reaching the first giant
-branch (thick curve) and the asymptotic giant branch (thin curves).
-The blue curves show the orbital separation at the moment of
-Roche-lobe overflow for each of the aforementioned giants, assuming a
-circular orbit and a total inner binary mass of $0.9 + 1.1$
-M$_{\odot}$ $=$ 2.0 M$_{\odot}$.  The green curves show for these
-assumptions the maximum orbital separation for a stable inner binary
-pair.
+When adopting a mass of the tertiary star of $m_3 = 1.4$\,\MSun, we
+can estimate the initial parameters for the inner binary as well as
+the orbit of the outer star after mass transfer. We first calculate
+the stellar radius as a function of core mass. In
+figure\,\ref{fig:tertiarymass_vs_size} we present this relation
+calculated using the {\tt SeBa} stellar evolution code
+\cite{1996A&A...309..179P} (dark blue curve).  The interruption in
+this curve, aroung a core mass of $m_{\rm core} \sim 0.5$\,\MSun\, is
+a result of the evolution along the horizontal branch, where the core
+of the star continues to grow but the radius actually shrinks.
+
+Adopting masses for the inner binary $m_1=1.1$\,\MSun\, and
+$m_2=0.9$\,\MSun\, we can calculate the outer orbital separation at
+the onset of Roche-lobe overflow $a_{\rm out}$, and subsequently the
+maximum orbital separation for the inner binary for which the orbit is
+stable and a circum binary disk can form. These two limits are
+prosented as the light-blue and light green curves in
+figure\,\ref{fig:tertiarymass_vs_size}.  The alotted region of
+parameter space is then above the dahsed horizontal line and to the
+right of the vertical dotted line.
+
+With the adopted parameters, we can also estimate the final orbital
+period of the left-over core from the tertiary star.  The change in
+orbital separation due to non-conservative mass transfer can be
+expressed in terms of the mass of the outer star before and after mass
+transfer $m_3$ and $m'_3$, the total mass in the inner binary before
+($m_{\rm in}$) and after having accreted ($m'_{\rm in}$) and the
+amount of angular momentum lost per unit mass $\eta \simeq 3$
+\cite{1995A&A...296..691P}.
+\begin{equation}
+  {a \over a_0} = \left( {m'_3 m'_{\rm in} \over m_3 m_{\rm in}} \right)^{-2}
+  \left( {m'_3 + m'_{\rm in} \over m_3 + m_{\rm in}} \right)^{2\eta + 1}
+\end{equation}
+In figure\,\ref{fig:tertiarymass_vs_size} we present this relation
+with the top brown curve, which subsequently gives an estimate of the
+orbital separation of the white dwarf around the twin blue straggler
+7782.
 
 \section{Numerical Simulations} \label{sims}
 
@@ -573,7 +611,12 @@ view of the triple system in our simulations at the onset of Roche-lobe overflow
 \caption{Top view of the simulated triple system in which the outer
   star over-fills its Roche-lobe (represented by 80000\,sph particles
   and a core particle of 0.4\,\MSun (blue bullet). The two companion
-  stars are represented as red bullets (to the right).
+  stars are represented as black bullets (to the right).  The inner
+  binary is represented by the yellow and the red bullets for the
+  1.1\,\MSun\, primary and 0.9\,\MSun\, secondary stars in a circular
+  orbit of 0.1\,au. The 1.4\,\MSun\, giant star is presented to the
+  right in a circular orbit of $\sim 1.47$\,au in the plan of the
+  inner binary.
 \label{fig:topview_at_t0}}
 \end{figure}
 
@@ -625,9 +668,10 @@ In fig.\,\ref{fig:topview_at_t1000day} we show the same triple after
   \includegraphics[width=0.49\columnwidth]{fig_BBSS_Lgas_M14Msun_A010au_t3360.pdf}
 ~  \includegraphics[width=0.51\columnwidth]{fig_BBSS_gas_M14Msun_A010au_t3360.pdf}
 \caption{Same as Fig.\,\ref{fig:topview_at_t0} but at an age of $t
-  \simeq 996days$. Left panel shows the equipotential surface of the
-  triple overplotted with the gas distribution, the right panel shows
-  just the gas and the stars as bullets.
+  \simeq 1091\,days$ after the start of the simulation. Left panel
+  shows the equipotential surface of the triple overplotted with the
+  gas distribution, the right panel shows just the gas and the stars
+  as bullets.
 \label{fig:topview_at_t1000day}}
 \end{figure}
 
