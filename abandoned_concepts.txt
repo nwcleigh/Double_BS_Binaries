@@ -1,0 +1,44 @@
+
+The orbital evolution of the inner binary circumreferenced by a disk
+tends to evove by the accretion of mass and angular momentum. As a
+consequence, the two stars in the binary accumulate mass, and their
+orbit shrinks. The orbital evolution can be approximated, to first order, by:
+\begin{equation}
+  {d\ln a \over dt}   = {-d\ln m_{\rm in} \over dt},
+\end{equation}
+where $a$ and $m_{\rm in}$ are the semimajor-axis and total mass in
+the inner binary.  In the simulations we measure ${d\ln a \over dt}
+\simeq -0.0843$\,Myr$^{-1}$.
+%NL2:  The above equation seems incorrect to me, dimensionally.  It can be fixed by saying the ``specific mass'' and ``dimensionless semi-major axis'', I suppose.  But then I'd define how you make those parameters dimensionless.
+
+
+
+The highest accretion rate we obtain for the
+simulations with an eccentric inner orbit.  Here we applied a small
+correction to compensate for the larger accretion radii adopted for
+the two stars of 10\,\RSun\, compared to 6\,\RSun\, in
+\cite{2011MNRAS.413.2679D}. 
+
+
+
+%\simon{Why would we try to sell already what we plan on doing. I'de prefer to keep this quet. - NL2: To be honest, the ideas came to me, seemed relevant, and I was more interested in if *you* thought they were interesting ideas worth pursuing.  If that is the case, then yes let's pursue it ourselves and remove this paragraph (now done). Happy to work on these ideas, and actually have been in the WD+WD case with a student but it is going very slowly.  I think this mechanism should tie in nicely with that project though, so I'd like to include you on that if the student gets what he needs to done... it might be a lot quicker for us to just do it though. :) }
+%Finally, in future work, we intend to explore the implications of the
+%mechanism proposed here for other types of stellar triples.  Our
+%results highlight that specific theoretical predictions can often be
+%made.  For example, if two white dwarfs form the inner compact binary,
+%than circumbinary accretion could push one of them above the
+%Chandrasekhar mass limit.  Upon explosion, its WD companion would be
+%ejected at roughly the orbital velocity at the time of explosion,
+%producing a hypervelocity WD.  This predicts hot hypervelocity WDs
+%with masses very close to the Chandrasekhar mass limit for this
+%scenario.  Similarly, if the two WDs are replaced with two neutron
+%stars (NSs), then one NS could accrete to surpass the critical
+%supernova limit, upon which time it explodes to become a black hole
+%and receives a strong natal kick.  The NS companion would have a very
+%comparable mass to the newly formed black hole progenitor at the time
+%of explosion, and could potentially be used to constrain the maximum
+%NS mass.  More work needs to be done here to evaluate whether or not
+%there is any parameter space for the products of this scenario that
+%will allow for a mass determination for the original NS companion in
+%the putative compact NS-NS binary.
+
