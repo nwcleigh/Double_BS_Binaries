@@ -140,7 +140,7 @@
 %% If you wish, you may supply running head information, although
 %% this information may be modified by the editorial offices.
 \shorttitle{Compact Binaries of BS Twins from Stellar Triples}
-\shortauthors{Leigh \& Portegies Zwart}
+\shortauthors{Portegies Zwart \& Leigh}
 %%
 %% You can add a light gray and diagonal water-mark to the first page 
 %% with this command:
@@ -209,6 +209,12 @@
 \correspondingauthor{Nathan W. C. Leigh}
 \email{nleigh@amnh.org}
 
+\author{Simon Portegies Zwart}
+\affiliation{Leiden Observatory \\
+Leiden University \\
+PO Box 9513, 2300 RA \\
+Leiden, the Netherlands}
+
 \author{Nathan W. C. Leigh}
 \affil{American Museum of Natural History \\
 Department of Astrophysics \\
@@ -223,11 +229,11 @@ Universidad de Concepci\'on \\
 Concepci\'on, Chile}
 
 
-\author{Simon Portegies Zwart}
-\affiliation{Leiden Observatory \\
-Leiden University \\
-PO Box 9513, 2300 RA \\
-Leiden, the Netherlands}
+%\author{Simon Portegies Zwart}
+%\affiliation{Leiden Observatory \\
+%Leiden University \\
+%PO Box 9513, 2300 RA \\
+%Leiden, the Netherlands}
 
 
 %% Note that the \and command from previous versions of AASTeX is now
@@ -249,36 +255,32 @@ Leiden, the Netherlands}
 
 \begin{abstract}
 
-We propose a formation mechanism for twin blue stragglers in compact
-binaries that involve mass transfer from an evolved outer tertiary
+We propose a formation mechanism for twin blue stragglers (BSs) in compact
+binaries that involves mass transfer from an evolved outer tertiary
 companion on to the inner binary via a circumbinary disk.  We apply
-this scenario to the observed double blue straggler system Binary 7782
+this scenario to the observed double BS system Binary 7782
 in the old open cluster NGC 188, and show that its observed properties
 are naturally reproduced within the context of the proposed model.
-Based on this model, we predict the following properties for twin blue
-stragglers: (1) For the outer tertiary orbit, the initial orbital
+Based on this model, we predict the following properties for twin BSs: (1) For the outer tertiary orbit, the initial orbital
 period should lie between 220 days $\lesssim$ P$_{\rm out}$ $\lesssim$
 1100 days, assuming initial masses for the inner binary components of
 $m_{\rm 1} = 1.1$ M$_{\odot}$ and $m_{\rm 2} =$ 0.9 M$_{\odot}$ and an
 outer tertiary mass of $m_{\rm 3} = 1.4$ M$_{\odot}$.  After
 Roche-lobe overflow, the outer star turns into a white dwarf (WD) of
 0.43 to 0.54\,\MSun. There is a correlation between the mass of this
-WD and the outer orbital period in the sense that more massive white
-dwarfs will be on wider orbits.  (3) The rotational axes of both the
-BSs in the inner binary will be aligned with each other and the
-orbital plane of the outer tertiary WD. (4) The BSs in the inner
-binary will have roughly the same masses, independent of their initial
-masses.  This follows from the more copious accretion of mass onto the
-initially lower mass star.  This star should, therefore, be enriched
+WD and the outer orbital period: more massive WDs will be on wider orbits.  (3) The rotational axes of both 
+BSs will be aligned with each other and the
+orbital plane of the outer tertiary WD. (4) The BSs 
+will have roughly equal masses, independent of their initial
+masses (since the initially lower mass star accretes the most).  The dominant accretor should, therefore, be enriched
 more effectively by the accreted material.  As a result, one of the
-blue stragglers will appear to be more enriched by He, C and O
-if the donor started to overflow its Roche lobe at the red
-giant branch, or with s-process elements, if the donor was on the
-asymptotic giant branch.  (5) Relative to old dense clusters with high-velocity dispersions, twin BSs in close binaries formed from the
+BSs will appear to be more enriched by either He, C and O or by s-process elements, depending on 
+if the donor started to overflow its Roche lobe on, respectively, the red
+giant or asymptotic giant branch.  (5) Relative to old dense clusters with high-velocity dispersions, twin BSs in close binaries formed from the
 proposed mechanism should be more frequent in the Galactic field and
 younger open clusters with ages $\lesssim$ 4-6 Gyr, since then the
 donor will have a radiative envelope. (6) the orbit of the binary BS
-will be close (typically $\aplt 0.3$\,au) and close to circular ($e
+will have a small semi-major axis (typically $\aplt 0.3$\,au) and be close to circular ($e
 \aplt 0.2$).
 
 \end{abstract}
@@ -289,17 +291,17 @@ will be close (typically $\aplt 0.3$\,au) and close to circular ($e
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction} \label{intro}
 
-Blue straggler (BS) stars are brighter and bluer than the
-main-sequence turn-off in a cluster colour-magnitude diagram
+Blue straggler stars are brighter and bluer than the
+main-sequence (MS) turn-off in a cluster colour-magnitude diagram
 \citep[e.g.][]{1953AJ.....58...61S,2014ApJ...782...49S}.  Two primary
 channels for BS formation have been proposed: mass transfer from an
-evolved donor on to a main-sequence star in a binary star system
+evolved donor on to a MS star in a binary star system
 \citep[e.g.][]{1964MNRAS.128..147M,1997A&A...328..143P,2009Natur.457..288K,2011MNRAS.410.2370L,2011Natur.478..356G},
-and direct stellar collisions involving main-sequence stars possibly
+and direct stellar collisions involving MS stars possibly
 mediated via binaries
 \citep[e.g.][]{1975AJ.....80..809H,1997A&A...328..130P,2007ApJ...661..210L,2013MNRAS.428..897L,2013MNRAS.429.1221H,2018arXiv181100058P}.
-Other possible, albeit related, formation mechanism includes mergers
-of close main-sequence binaries (MS-MS) \cite{2018arXiv181100058P},
+Other possible, albeit related, formation mechanisms include mergers
+of close MS-MS binaries \cite{2018arXiv181100058P},
 and mergers of the inner binaries of hierarchical triple star systems
 induced by Lidov-Kozai oscillations coupled with tidal damping
 \citep[e.g.][]{2009ApJ...697.1048P}.
@@ -307,34 +309,29 @@ induced by Lidov-Kozai oscillations coupled with tidal damping
 In spite of these specific predictions for the expected properties of
 BSs formed from each of the above production mechanisms, many BSs
 exist with observed properties that defy these simple scenarios.  For
-example, in the old open cluster M67, there lurks a candidate triple
+example, in the old open cluster (OC) M67, there lurks a candidate triple
 system that is posited to host two BSs
 \citep{2001A&A...375..375V,2003AJ....125..810S}.  The observations
 suggest that the outer tertiary is itself a BS, with a mass $\sim$ 1.7
 M$_{\odot}$ and orbiting the inner binary with a period of $\sim
 1188.5$ days \citep{2003AJ....125..810S}.  The inner binary has a
 period of only $\sim 1.068$ days \citep{2001A&A...375..375V}, and
-hosts a BS of mass $\sim 2.52$ M$_{\odot}$.  In order to form this
-system we require at least five stars in order to conserve the total
-mass in the system \citep{2011MNRAS.410.2370L}.  As explained in
-\citet{2011MNRAS.410.2370L}, this is strongly indicative of a
+hosts a BS of mass $\sim 2.52$ M$_{\odot}$.  In order to reproduce the total system mass 
+we require at least five stars \citep{2011MNRAS.410.2370L}.  This is strongly indicative of a
 dynamical origin for the system, and a single direct interaction
 involving a binary and a triple that resulted in two separate
-collision events is the most probable explanation for its origin
-(i.e., a single interaction involving two multiples with two or more
-stars is a more likely scenario to produce this system than two
-back-to-back direct binary-binary interactions)
-\citep{2004MNRAS.350..615G}.  
+collisions is the most probable explanation for its origin
+(instead of back-to-back direct binary-binary interactions)
+\citep{2004MNRAS.350..615G,2011MNRAS.410.2370L}.  
 
-Even more curious, there exists in the old open cluster NGC 188 a
-double BS binary, called Binary 7782.  More generally, the BS
+Even more curious, there exists in the old OC NGC 188 a
+double BS binary, called Binary 7782.  The BS
 population in NGC 188 has a bi-modal period-eccentricity distribution.
 As discussed in \citet{2011MNRAS.410.2370L}, this could be hinting at
 a triple origin for at least some subset of the total BS population.
 As for Binary 7782, \citet{2009Natur.462.1032M} observed a compact and
 mildly eccentric (i.e., $e \sim 0.1$) binary star system with an
-orbital period of $\sim$ 10 days hosting two roughly equal-mass blue
-stragglers.  During a given binary-binary interaction, the probability
+orbital period of $\sim$ 10 days hosting two roughly equal-mass BSs.  During a given binary-binary interaction, the probability
 that not one but two direct (MS-MS) collisions will occur is less than
 $10^{-2}$
 \citep{1989AJ.....98..217L,2011MNRAS.410.2370L,2012MNRAS.425.2369L}.
@@ -346,19 +343,19 @@ products during a collisional interaction in a star cluster
 
 We propose a formation channel for Binary 7782, and compact double BS
 binaries in general, which involves mass transfer from an outer
-tertiary companion on to an inner binary composed of two main-sequence
+tertiary companion on to an inner binary composed of two MS 
 stars.  In section~\ref{sect:dyn}, we constrain the range of initial
 (i.e., pre-mass transfer) orbital parameters for a hypothetical outer
 tertiary companion, using a combination of dynamical and stellar
 evolution-based constraints.  In Section~\ref{sims} we present the
-numerical simulations used to study the mass transfer process triple
-system with orbital parameters that, according to our expectations,
-for promising progenitors for the twin BS 7782.  The calculations are
+numerical simulations used to study the mass transfer process in this triple
+system. We adopt orbital parameters that, according to our expectations,
+are most promising for the progenitors of the twin BS 7782.  The calculations are
 performed using the Astrophysical Multipurpose Software Environment
 (\texttt{AMUSE} for short) \cite{AMUSE} with a combination of stellar
 evolution, hydrodynamical and gravitational simulations.  with these
 calculations we further constrain the possible range of initial
-parameters that naturally lead to twin BS with orbital parameters
+parameters that naturally lead to twin BSs with orbital parameters
 similar to the 7782 system.  We summarize and discuss the implications
 of our results for compact double BS binaries and, more generally,
 mass transfer in stellar triples in Section~\ref{sect:discussion}.
@@ -367,9 +364,9 @@ mass transfer in stellar triples in Section~\ref{sect:discussion}.
          tertiary companion in the compact BS Binary 7782} \label{sect:dyn}
 
 In our scenario, we start with a binary star with component masses
-$m_{\rm 1}$ and $m_{\rm 2}$ that is orbited tertiary of mass
+$m_{\rm 1}$ and $m_{\rm 2}$ that is orbited by a tertiary of mass
 $m_3$. The inner and outer binary orbital semi-major axes are denoted
-a$_{\rm in}$ and a$_{\rm out}$, respectively.  For clarity we now
+a$_{\rm in}$ and a$_{\rm out}$, respectively.  For clarity we 
 assume both orbits, the inner as well as the outer, to have negligible
 eccentricity and low inclination.  These assumptions are also
 supported by the population of observed low-mass triples
@@ -414,10 +411,10 @@ tertiary companion, $a_{\rm c}$ is the semi-major axis of the orbit
 about the inner binary corresponding to the circularization radius and
 v$_{\rm orb,c}$ is the orbital velocity at $a_{\rm c}$.  The distance
 from the centre of mass corresponding to the tertiary defined by the
-Roche lobe is given by Equation 2 in \citep{1983ApJ...268..368E}.
-Combining Equation 2 in \citet{1983ApJ...268..368E} (with mass ratio q
+Roche lobe is given by eq.\,2 in \citep{1983ApJ...268..368E}.
+Combining eq.\,2 in \citet{1983ApJ...268..368E} (with mass ratio q
 $=$ m$_{\rm 3}$/(m$_{\rm 1} +$m$_{\rm 2}$)) with
-Equation~\ref{eqn:specangmom1}, we solve for the circularization
+eq.~\ref{eqn:specangmom1}, we solve for the circularization
 radius as a function of a$_{\rm out}$ and the assumed stellar masses:
 \begin{equation}
 \label{eqn:ac}
@@ -434,22 +431,23 @@ component masses of $m_{\rm 1} = 1.1$ M$_{\rm \odot}$ and $m_{\rm 2} =
 circularization radius to the semi-major axis of the inner binary, for
 which we require $a_{\rm c} > a_{\rm in}$, after folding in all
 constraints from the requirements for dynamical stability (listed in
-the caption of Figure~\ref{fig:fig2}), an outer tertiary that is Roche
-lobe-filling, and a dynamically hard outer tertiary orbit.  \simon{Why
-  do you consider it important to mention that the orbit is hard, and
-  for what environment did you consider this?}  Note that the range of
+the caption of figure~\ref{fig:fig2}), and the assumption of an outer tertiary that is Roche
+lobe-filling.  
+%\simon{Why do you consider it important to mention that the orbit is hard, and for what environment did you consider this? - NL: Deleted.}  
+Note that the range of
 plotted orbital periods P$_{\rm in}$ corresponding to a contact state
 for the inner binary lies outside the range of plotted values for
-$P_{\rm in}$ (for components with radii of roughly 1 R$_{\odot}$),
+$P_{\rm in}$ (for components with radii of 1 R$_{\odot}$),
 since it does not contribute to constraining the outer orbital
-properties).  The thick horizontal solid red line shows the allowed
+properties.  The thick horizontal solid red line shows the allowed
 range of outer semi-major axes, after folding in all of 
 the aforementioned criteria.  These constraints result in a rather narrow
 range of initial conditions for the outer orbit, namely 2.2 $\times$
-10$^{2}$ days $\le$ P$_{\rm out}$ $\le$ 1.1 $\times$ 10$^3$ days, for
-which the tertiary star overfills its Roche lobe, the triple is (at
-least initially) dynamically stable and the accretion stream forms a
-gaseous ring around the inner binary.
+10$^{2}$ days $\le$ P$_{\rm out}$ $\le$ 1.1 $\times$ 10$^3$ days.
+%, for
+%which the tertiary star overfills its Roche lobe, the triple is (at
+%least initially) dynamically stable and the accretion stream forms a
+%gaseous ring around the inner binary.
 
 \begin{figure}[ht!]
 \plotone{fig2.eps}
@@ -479,7 +477,7 @@ gaseous ring around the inner binary.
   is Roche lobe-filling, assuming a stellar radius of R$_{\rm 3} =$
   200 R$_{\odot}$ (which corresponds to the maximum stellar radius
   reached on the AGB for the range of tertiary masses of interest to
-  us.  The horizontal dashed red line shows the observed orbital
+  us; see figure~\ref{fig:tertiarymass_vs_size}).  The horizontal dashed red line shows the observed orbital
   period for Binary 7782, using its observed orbital period and our
   assumed final inner companion masses (i.e., m$_{\rm 1} =$ m$_{\rm 2}
   =$ 1.4 M$_{\odot}$).  Finally, the thick solid horizontal red line
@@ -491,13 +489,13 @@ gaseous ring around the inner binary.
 \begin{figure}[ht!]
   \includegraphics[width=\columnwidth]{fig_M14MSun_outerorbit.pdf}
   \caption{Giant radius as a function of the mass of the core of the
-    Roche-lobe filling outer star (dark blue curve).  Here we adopted
-    a donor mass of 1.4\,\MSun, but for an 1.2\,\MSun\, donor curve is
+    Roche-lobe filling outer star (dark blue curve).  Here we adopt
+    a donor mass of 1.4\,\MSun, but for an 1.2\,\MSun\, donor the curve is
     quite similar (see dotted dark-blue curve).  The red squares in
     the curve show the parameters for which we performed more detailed
     gravitational-hydrodynamical simulations (see \S\,\ref{sims}).
     The horizontal dashed line shows the orbital separation of the
-    observed twin blue straggler 7782.  The initial triple in which it
+    observed twin BS 7782.  The initial triple in which it
     possibly formed must at least have been dynamically stable. The
     minimal orbital separation for the inner binary for which the
     triple is stable is given by the lower green coloured curve.
@@ -507,17 +505,17 @@ gaseous ring around the inner binary.
     then indicated by the left-most vertical dotted line.  The
     orbital separation at which the donor star overfills its Roche
     lobe is indicated with the light-blue curve. The top curve (brown)
-    shows an estimate of the final orbit separation of the outer star,
-    and therefore of the final orbit of the white dwarf around the
-    inner twin blue straggler.  For core masses $\apgt 0.5$\,\MSun\,
+    shows an estimate of the final orbital separation of the outer star,
+    and therefore of the final orbit of the WD around the
+    inner twin BSs.  For core masses $\apgt 0.5$\,\MSun\,
     the final orbital separation, after mass transfer, is smaller
     than the initial orbit.  Here we adopted an initial inner binary
-    mass of (1.0+0.9)\,\MSun\, and a final twin-blue straggler mass of
+    mass of (1.0+0.9)\,\MSun\, and a final twin BS mass of
     (1.4+1.4)\,\MSun.
 \label{fig:tertiarymass_vs_size}}
 \end{figure}
 
-When adopting a mass of the tertiary star of $m_3 = 1.4$\,\MSun, we
+Adopting a mass for the tertiary star of $m_3 = 1.4$\,\MSun, we
 can constrain the initial parameters for the inner binary as well as
 the orbit of the outer star after mass transfer. We first calculate
 the stellar radius as a function of core mass. In
@@ -535,14 +533,14 @@ Adopting masses for the inner binary $m_1=1.1$\,\MSun\, and
 $m_2=0.9$\,\MSun\, we can calculate the outer orbital separation at
 the onset of Roche-lobe overflow $a_{\rm out}$, and subsequently the
 maximum orbital separation for the inner binary for which the orbit is
-stable and a circum-binary disk can form. These two limits are
-presented as the light-blue and light green curves in
+stable and a circumbinary disk can form. These two limits are
+presented as the light blue and light green curves in
 figure\,\ref{fig:tertiarymass_vs_size}.  The alotted region of
 parameter space is then above the dashed horizontal line and to the
 right of the vertical dotted line.
 
 With the adopted parameters, we can also estimate the final orbital
-period of the left-over core from the tertiary star after the phase of
+period of the left-over core from the tertiary star after 
 mass transfer.  The change in orbital separation due to
 non-conservative mass transfer can be expressed in terms of the mass
 of the outer star before and after mass transfer $m_3$ and $m'_3$,
@@ -556,15 +554,14 @@ orbital separation before mass transfer ($a$) and after mass transfer
   \left( {m_3 + m_{\rm in} \over m'_3 + m'_{\rm in}} \right)^{2\eta + 1},
 \end{equation}
 we arrive at the top brown curve in
-figure\,\ref{fig:tertiarymass_vs_size}. This curve provides an
-estimate of the orbital separation of the white dwarf around the twin
-blue straggler 7782. Tidal effects during the episode of mass tranfer
-have probably circularized the orbit, althoug some slight eccentricity
+figure\,\ref{fig:tertiarymass_vs_size}. This curve provides a prediction for 
+the current orbital separation of the WD around the twin
+BS 7782. Tidal effects during mass tranfer
+have probably circularized the orbit, although some slight eccentricity
 due to turbulent motion in the outer layers of the donor star may have
 induces a small $e \ll 0.1$ eccentricity.
 
-Having limited parameter space for the formation of the twin blue
-straggler 7782, we continue by performing a series of simulations to
+Having limited parameter space for the formation of the twin BS 7782, we continue by performing a series of simulations to
 investigate the accretion and changes to the inner orbits of triple
 systems in this range of parameters.
 
@@ -589,11 +586,11 @@ between $m_{\rm 3} = 1.2$ and $m_{\rm 3} = 1.4$ M$_{\rm \odot}$ for
 the tertiary star.  We evolve the tertiary star using the MESA
 stellar-evolution code \cite{2011ApJS..192....3P} to a radius of about
 100\,\RSun\, and 150\,\RSun, at which point we assume it to overfill
-it's Roche lobe (see red squared in
+it's Roche lobe (see red square in
 figure~\ref{fig:tertiarymass_vs_size}).  We perform calculations for an
 inner orbital separation of $a_{\rm in} = 0.10$\,au, $a_{\rm in} =
 0.15$\,au and $a_{\rm in} = 0.20$\,au.  In total we performed 12
-calculations at a resolution of 40k SPH particles 12 at 80k.
+calculations at a resolution of 40k SPH particles and 12 at 80k.
 
 The stellar-evolution model, including the structure, temperature and
 composition profiles are turned into a smoothed-particles
@@ -636,14 +633,14 @@ conditions for one of these calculations.
 \begin{figure}[ht!]
   \includegraphics[width=\columnwidth]{fig_BBSS_gas_M14Msun_A010au_t0002.pdf}
 \caption{Top view of the simulated triple system in which the
-  100\,\RSun\, outer star of 1.4\,\MSun\, that over-fills its
-  Roche-lobe.  the star is represented by 80000\,SPH particles and a
+  100\,\RSun\, outer star of 1.4\,\MSun\, over-fills its
+  Roche-lobe.  The star is represented by 80000\,SPH particles and a
   core particle of $\sim 0.4$\,\MSun (black bullet). The two companion
   stars are represented as black bullets (to the right).  The inner
-  binary is represented by the yellow and the red bullets for the
+  binary is represented by the yellow and red bullets for, respectively, the
   1.1\,\MSun\, primary and 0.9\,\MSun\, secondary stars in a circular
   orbit of 0.1\,au. The 1.4\,\MSun\, giant star is presented to the
-  right in a circular orbit of $\sim 250$\,\RSun\, in the plan of the
+  right in a circular orbit of $\sim 250$\,\RSun\, in the plane of the
   inner binary.
 \label{fig:topview_at_t0}}
 \end{figure}
@@ -675,8 +672,7 @@ same way as is done with two different gravity solvers by
 \cite{2007PASJ...59.1095F}. With the adopted scheme, the
 hydrodynamical solver is affected by the gravitational potential of
 its own particles, as well as the gravitational potential of the inner
-binary. The hydrodynamics, in particular, the interaction with the gas,
-in turn, affects the orbits of the two inner stars. With
+binary. The hydrodynamics affects the orbits of the two inner stars. With
 \texttt{Bridge} we realize a second order coupling between the
 gravitational dynamics and the hydrodynamics.  The interval at which
 the gravity and hydrodynamics interact via \texttt{Bridge} depends on
@@ -694,7 +690,7 @@ gravity and the hydrodynamical effects of the triple into account.
 The results of these simulations are presented in
 figure~\ref{fig:topview_at_t1000day} and
 figure~\ref{fig:mass_vs_semimajor_axis}.  The first figure
-(figure~\ref{fig:topview_at_t1000day} shows the top view of the same
+(figure~\ref{fig:topview_at_t1000day}) shows the top view of the same
 initial realization for which we presented the initial conditions in
 figure~\ref{fig:topview_at_t0} but now at an age of 1091 days after
 the onset of mass transfer. To guide the eye we add, to the left panel,
@@ -710,7 +706,7 @@ altogether from the triple system and is therefore not accreted to any
 of the two inner stars. This value is hard to estimate from the
 simulations, but an accretion efficiency of $\apgt 0.6$ is necessary to
 make the scenario feasible. Over the time scale for which we performed
-the calculations, this efficiency is reached, but it is not clear who
+the calculations, this efficiency is reached, but it is not clear how
 the system responds at later stages.
 
 \begin{figure}[ht!]
@@ -718,33 +714,33 @@ the system responds at later stages.
 ~  \includegraphics[width=0.51\columnwidth]{fig_BBSS_gas_M14Msun_A010au_t3360.pdf}
 \caption{Same as figure~\ref{fig:topview_at_t0} but at an age of $t
   \simeq 1091\,days$ after the start of the simulation. Left panel
-  shows the equipotential surface of the triple overplotted with the
+  shows the equipotential surfaces of the triple overplotted with the
   gas distribution, the right panel shows just the gas and the stars
   as bullets.
 \label{fig:topview_at_t1000day}}
 \end{figure}
 
 The evolution of the inner orbit presented for several simulations in
-figure~\ref{fig:mass_vs_semimajor_axis}, is complicated.  This is
+figure~\ref{fig:mass_vs_semimajor_axis} is complicated.  This is
 caused by the complex transport of mass, energy and angular momentum
 through the accretion stream and throughout the system.  It is
 therefore hard to quantify distinct trends in the evolution of the
-triple system. In simulated of the response of an inner binary on
+triple system. In simulations of the response of an inner binary on
 accretion from a circumbinary disk, \cite{2018arXiv181208175M}
 conclude that the complexity of angular momentum transport between
-outer star, accretion stream to the individual inner stars, is
+the outer star and the accretion stream onto the individual inner stars, is
 complicated and without clear trends. For most of our calculations we
 agree with this statement, but in
 figure~\,\ref{fig:mass_vs_semimajor_axis} we nevertheless present the
-results of 6 of our calculations, three for and 1.2\,\MSun\, donor and
-three for a 1.4\,\MSun\, donor star. The various coloured curves give
+results of 6 of our calculations, three for a 1.2\,\MSun\, donor star and
+three for a 1.4\,\MSun\, donor. The various coloured curves give
 the resulting evolution of the inner orbit as a function of the total
-mass in the inner binary. While the inner two stars accrete the orbit
-in the case with a 1.2\,\MSun\, donor tends to shrink. These systems
+mass in the inner binary. As the inner two stars accrete, the orbit shrinks 
+for a 1.2\,\MSun\, donor. These systems
 are expected to result in a contact binary, that eventually may merge
-to form a single blue straggler. The required evolution in order to
-explain the observed twin blue straggler 7782 are indicated with the
-three black curves, and the simulated path clearly deviates from
+to form a single BS. The required evolution in order to
+explain the observed twin BS 7782 is indicated by the
+three black curves; the simulated path clearly deviates from
 these. We, therefore, argue that a 1.2\,\MSun\, donor has difficulty
 explaining the observed orbital separation of $\sim 0.13$\,au in BSS
 7782.
@@ -754,8 +750,8 @@ explaining the observed orbital separation of $\sim 0.13$\,au in BSS
   \includegraphics[width=\columnwidth]{fig_orbital_evolution_for_14MSun.pdf}
   \caption{Evolution of the total mass of the inner binary as a
     function of the orbital separation for four calculations with
-    somewhat different initial conditions (see legend).  The initial
-    binary for the orange curve is presented in
+    somewhat different initial conditions (see the legend).  The initial
+    binary shown by the orange curve is presented in
     fig.\,\ref{fig:topview_at_t0}, and in
     fig.\,\ref{fig:topview_at_t1000day} we present the final
     conditions.
@@ -764,31 +760,28 @@ explaining the observed orbital separation of $\sim 0.13$\,au in BSS
 
 In the lower panel in figure~\ref{fig:mass_vs_semimajor_axis} we
 present the evolution of the orbit for the 1.4\,\MSun\, donor. A more
-massive donor is more likely to be able to produce a twin blue
-straggler, simply because there is more mass available in the stellar
+massive donor is more likely to be able to produce a twin BS system, simply because there is more mass available in the stellar
 envelope. On the other hand, a more massive donor may also result in a
 lower accretion efficiency, because the thermal time scale of the
-stellar envelope is smaller than for the lower mass donor at the same
-stellar radius. Such a shorter thermal time-scale eventually leads to
+stellar envelope is smaller than for a lower mass donor at the same
+stellar radius. A shorter thermal time-scale eventually leads to
 a higher mass transfer rate, which again may lead to a lower accretion
 efficiency. However, the larger mass budget in the envelope appears to
 compensate.
 
 The orbit of the inner binary expands in these cases as a result of
-the accretion onto the inner two stars. In all the three cases
-presented in figure~\ref{fig:mass_vs_semimajor_axis} expand by about
-the same rate (as function of the accretion onto the inner binary
-star). As a consequence, the inner binaries that start with $a =
+accretion onto the inner two stars. All three cases
+presented in figure~\ref{fig:mass_vs_semimajor_axis} expand at about
+the same rate. Consequently, the inner binaries that start with $a =
 0.15$\,au and $a=0.20$\,au eventually become dynamically unstable.
 The binary with an initial separation of $0.10$\,au expands to reach a
-separation of about 0.126--0.145\,au for a mass of the inner two stars
-of 1.4\,\MSun, which is consistent with the observed twin blue
-straggler 7782. In our simulations the eccentricity of the inner
+separation of about 0.126--0.145\,au for final masses for the inner two stars
+of 1.4\,\MSun, which is consistent with the observed twin BS 7782. In our simulations the eccentricity of the inner
 binary grows to about $e \simeq 0.0028$.
 
 With the accretion of mass, both stars in the inner binary also
 accrete angular momentum.  By the end of the simulation the spins of
-the two blue stragglers are aligned along the orbital angular momentum
+the two BSs are aligned along the orbital angular momentum
 axis with an angle of $90.0^\circ$ for the primary star and
 $93.4^\circ$ for the secondary star with respect to the argument of
 pericenter of the inner orbit.  By the end of the simulations the spin
@@ -800,57 +793,61 @@ magnetic braking effects).
 
 \section{Discussion} \label{sect:discussion}
 
-We considered the formation of twin blue stragglers in tight binaries.
+In this paper, we consider the formation of twin BSs in tight binaries.
 These systems may form through mass transfer from an outer Roche-lobe
 filling tertiary star. Once this star ascends the giant branch, part
 of its envelope is transferred to the inner binary, and accreted by
-the two inner stars which are still on the main sequence.
+the two inner stars which are still on the MS.
 
 As illustrated via SPH simulations, the mass transfer stream forms a
 circumbinary disk, from which the inner binary stars accrete, driving
 the inner binary toward a mass ratio close to unity.  Our simulations
 suggest that the inner binary orbital separation can decrease or
 expand depending on the details of the transfer of mass and angular
-momentum. Regretfully, we do not really understand the details of this
-process, but then this process is hardly understood in binary
-evolution also.
+momentum.  More work is certainly needed in order to fully understand 
+mass transfer in triples.
+%Regretfully, we do not really understand the details of this
+%process, but then this process is hardly understood in binary
+%evolution also.
+%NL: I edited the above to be a kinder to us.
 
 We summarize the results of these simulations as follows: for a
 1.2\,\MSun\, tertiary donor mass, we expect the inner two stars to
-eventually merge and form a single blue straggler. This reduces the
-system to a binary with a primary blue straggler and an outer white
-dwarf in a relatively wide orbit. Such a blue straggler will
-distinguish itself from other blue stragglers from potentially
+eventually merge and form a single BS. This reduces the
+system to a binary with a primary BS and an outer WD in a relatively wide orbit. Such a BS will
+distinguish itself from other BSs by potentially
 being more than twice the turn-off mass in a star cluster.  An
-example could be the $2.9\pm0.2$\,\MSun\, blue straggler S1237 in the
+example could be the $2.9\pm0.2$\,\MSun\, BS S1237 in the
 Galactic cluster M67 \cite{2016ApJ...832L..13L}. It is the primary of
 a $\sim 698$\,day binary with an eccentric orbit of $\sim 0.10$.
 
-With an original outer star of $\sim 1.4$\,\MSun, the inner orbit
-tends to expand. For relatively wide inner orbit this eventually leads
+With an original outer star of mass $\sim 1.4$\,\MSun, the inner orbit
+tends to expand. This eventually leads
 to a dynamically unstable system resulting either in a collision or in
 the ejection of (probably) the lowest mass star. This evolution could
-result in a single ejected blue straggler the other blue straggler in
-a relatively close and eccentric orbit with a white dwarf (the
-left-over core of the tertiary star).
+result in a single ejected blue straggler, with the other BS left in
+a relatively close and eccentric orbit with a WD (the
+left-over core of the tertiary star).  These ``imposter'' BS-WD binaries 
+would in principle mimic what is expected theoretically for BSs formed 
+from mass transfer in binary stars.
 
 When we adopt an inner orbit of $0.10$\,au\, the expansion eventually
-matches the observed orbital separation of $0.13$\,au of the observed
-twin BSS 7782 and the observed masses of the two stars.
+matches the observed orbital separation (i.e., $0.13$\,au) of the observed
+twin BS 7782 and the observed masses of the two stars.
 
 In order to study the T-tauri binaries V4046 Sgr and DQ Tau,
 \cite{2011MNRAS.413.2679D} perform a series of 2D hydrodynamical
 simulations of circumbinary disks.  These authors studied the two
 observed T-tauri systems V4046 Sgr and DQ~Tau, to which we compare our
 results here.  For V4046 Sgr, for which the two stars have comparable
-masses as in our calculation in an circular orbit with a period of
-only 2.4 days they find that the inner binary accretes at a rate of
+masses as in our calculation for a circular orbit with a period of
+only 2.4 days, they find that the inner binary accretes at a rate of
 $\sim 0.028$\,\MSun/Myr.  For DQ~Tau, which is composed of lower-mass
 stars ($m_1 = m_2 \simeq 0.55$\,\MSun) in an eccentric ($e\simeq
-0.556$) orbit of $\sim 15.8$\,days they find an accretion rate onto
+0.556$) orbit of $\sim 15.8$\,days, they find an accretion rate onto
 the inner binary of $\sim 0.027$\,\MSun/Myr.  These values are in the
 same range as in our calculations, which results in an accretion rate
-of the inner binary of 0.027--0.058\,\MSun/Myr (i.e., the average
+for the inner binary of 0.027--0.058\,\MSun/Myr (i.e., the average
 measured over a period of about 3000 days in our simulations).
 Interestingly, however, \cite{2011MNRAS.413.2679D} find that the
 primary star in V4046 Sgr accretes at an 8\% higher rate than the
@@ -877,8 +874,8 @@ retrogade inner orbits.
 
 \section{Summary} \label{sect:conclusions}
 
-We propose a formation scenario for twin blue stragglers of equal-mass
-in tight binaries, as observed for Binary 7782 in the old open cluster
+In this paper, we propose a formation scenario for twin equal-mass blue stragglers 
+in tight binaries, as observed for Binary 7782 in the old OC
 NGC 188.  The proposed scenario involves mass transfer from an evolved
 outer tertiary companion, which is accreted by the inner binary via a
 circumbinary disk.  Our scenario makes several predictions for the
@@ -887,23 +884,23 @@ WD.  These are:
 
 \begin{enumerate}
 
-\item For the predicted outer tertiary orbit, the present-day
-  semi-major axis should lie between 220 days $\lesssim$ P$_{\rm out}$
+\item For the predicted outer tertiary orbit, the initial 
+  orbital period should lie between 220 days $\lesssim$ P$_{\rm out}$
   $\lesssim$ 1100 days, assuming initial masses for the inner binary
   components of $m_{\rm 1} = 1.1$ M$_{\odot}$ and $m_{\rm 2} = 0.9$
   M$_{\odot}$ and an initial outer tertiary mass of $m_{\rm 3} = 1.4
-  $M$_{\odot}$.
+  $M$_{\odot}$.  Hence, the present-day orbital period should be close to this range.
 
 \item Larger final WD masses, and hence larger core masses for the donor at
   the time of mass transfer should correspond to larger final outer
-  orbital periods for the tertiary.  This is because of the Roche radius
+  orbital periods for the tertiary.  This is because the Roche radius
   is larger for larger outer orbital periods, such that the donor must
   evolve to larger radii, and hence core masses, before the onset of
   mass transfer.
 
 \item For the inner binary, the rotational axes of both the BSs should
   be aligned with each other and the orbital plane of the outer
-  tertiary WD.  This is because of accretion onto the BS progenitors
+  tertiary WD.  This is because accretion onto the BS progenitors
   proceeds via an accretion disk, that forms at the circularization
   radius and that has an orbital plane aligned with that of the outer
   tertiary.
@@ -924,7 +921,7 @@ WD.  These are:
 
 \item Twin BSs in compact binaries formed from the mechanism proposed here 
   should be more frequent in younger clusters with ages $\lesssim$ 4-6
-  Gyr.  This is because of clusters with a main-sequence turn-off mass
+  Gyr.  This is because clusters with a MS turn-off mass
   $\lesssim$ 1.2 M$_{\odot}$ have convective envelopes
   \citep[e.g.][]{1991ApJS...76...55I,2009pfer.book.....M}, and a radiative envelope for the
   donor in a mass transferring binary ensures stable accretion on to
