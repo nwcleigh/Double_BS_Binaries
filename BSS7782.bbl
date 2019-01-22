@@ -133,6 +133,12 @@ Oliphant, T.~E. 2006, {A guide to NumPy}, Vol.~1 (Trelgol Publishing USA)
 {Portegies Zwart}, S., \& {McMillan}, S. 2018, {Astrophysical Recipes: the Art
   of AMUSE} (AAS IOP Astronomy ({\em in press}))
 
+\bibitem[{{Portegies Zwart} {et~al.}(2013{\natexlab{a}}){Portegies Zwart},
+  {McMillan}, {van Elteren}, {Pelupessy}, \& {de Vries}}]{2013CoPhC.183..456P}
+{Portegies Zwart}, S., {McMillan}, S.~L.~W., {van Elteren}, E., {Pelupessy},
+  I., \& {de Vries}, N. 2013{\natexlab{a}}, Computer Physics Communications,
+  183, 456
+
 \bibitem[{Portegies~Zwart {et~al.}(2018)Portegies~Zwart, van Elteren,
   Pelupessy, McMillan, Rieder, de~Vries, Marosvolgyi, Whitehead, Wall, Drost,
   Jilkova, Martinez~Barbosa, van~der Helm, Beedorf, Bos, Boekholt, van
@@ -154,10 +160,10 @@ Portegies~Zwart, S., van Elteren, A., Pelupessy, I., {et~al.} 2018, {AMUSE: the
 {Portegies Zwart}, S.~F., {Hut}, P., \& {Verbunt}, F. 1997{\natexlab{b}}, \aap,
   328, 130
 
-\bibitem[{{Portegies Zwart} {et~al.}(2013){Portegies Zwart}, McMillan, van
-  Elteren, Pelupessy, \& de~Vries}]{PortegiesZwart2013456}
+\bibitem[{{Portegies Zwart} {et~al.}(2013{\natexlab{b}}){Portegies Zwart},
+  McMillan, van Elteren, Pelupessy, \& de~Vries}]{PortegiesZwart2013456}
 {Portegies Zwart}, S.~F., McMillan, S.~L., van Elteren, A., Pelupessy, F.~I.,
-  \& de~Vries, N. 2013, Computer Physics Communications, 184, 456
+  \& de~Vries, N. 2013{\natexlab{b}}, Computer Physics Communications, 184, 456
 
 \bibitem[{{Portegies Zwart} \& {Verbunt}(1996)}]{1996A&A...309..179P}
 {Portegies Zwart}, S.~F., \& {Verbunt}, F. 1996, \aap, 309, 179
