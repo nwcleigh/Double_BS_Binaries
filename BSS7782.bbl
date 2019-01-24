@@ -4,8 +4,8 @@
 \bibitem[{{Bate}(2000)}]{2000MNRAS.314...33B}
 {Bate}, M.~R. 2000, \mnras, 314, 33
 
-\bibitem[{{de Mink} \& {Mandel}(2016)}]{2016MNRAS.460.3545D}
-{de Mink}, S.~E., \& {Mandel}, I. 2016, \mnras, 460, 3545
+\bibitem[{{Bate} \& {Bonnell}(1997)}]{1997MNRAS.285...33B}
+{Bate}, M.~R., \& {Bonnell}, I.~A. 1997, \mnras, 285, 33
 
 \bibitem[{{de Val-Borro} {et~al.}(2011){de Val-Borro}, {Gahm}, {Stempels}, \&
   {Pepli{\'n}ski}}]{2011MNRAS.413.2679D}
@@ -43,9 +43,6 @@
 \bibitem[{{Hills}(1975)}]{1975AJ.....80..809H}
 {Hills}, J.~G. 1975, \aj, 80, 809
 
-\bibitem[{{Hunter}(2007)}]{2007CSE.....9...90H}
-{Hunter}, J.~D. 2007, Computing in Science and Engineering, 9, 90
-
 \bibitem[{{Hypki} \& {Giersz}(2013)}]{2013MNRAS.429.1221H}
 {Hypki}, A., \& {Giersz}, M. 2013, \mnras, 429, 1221
 
@@ -55,6 +52,9 @@
 \bibitem[{{Knigge} {et~al.}(2009){Knigge}, {Leigh}, \&
   {Sills}}]{2009Natur.457..288K}
 {Knigge}, C., {Leigh}, N., \& {Sills}, A. 2009, \nat, 457, 288
+
+\bibitem[{{Kroupa}(1995)}]{1995MNRAS.277.1491K}
+{Kroupa}, P. 1995, \mnras, 277, astro-ph/9508117
 
 \bibitem[{{Leigh} \& {Geller}(2012)}]{2012MNRAS.425.2369L}
 {Leigh}, N., \& {Geller}, A.~M. 2012, \mnras, 425, 2369
@@ -93,10 +93,6 @@
 \bibitem[{{McCrea}(1964)}]{1964MNRAS.128..147M}
 {McCrea}, W.~H. 1964, \mnras, 128, 147
 
-\bibitem[{{Miranda} {et~al.}(2017){Miranda}, {Mu{\~n}oz}, \&
-  {Lai}}]{2017MNRAS.466.1170M}
-{Miranda}, R., {Mu{\~n}oz}, D.~J., \& {Lai}, D. 2017, \mnras, 466, 1170
-
 \bibitem[{{Moe} \& {Kratter}(2018)}]{2018ApJ...854...44M}
 {Moe}, M., \& {Kratter}, K.~M. 2018, \apj, 854, 44
 
@@ -105,18 +101,9 @@
 {M{\"o}sta}, P., {Taam}, R.~E., \& {Duffell}, P.~C. 2018, arXiv e-prints,
   arXiv:1812.08175
 
-\bibitem[{Oliphant(2006)}]{Oliphant2006ANumPy}
-Oliphant, T.~E. 2006, {A guide to NumPy}, Vol.~1 (Trelgol Publishing USA)
-
-\bibitem[{{Paxton} {et~al.}(2010){Paxton}, {Bildsten}, {Dotter}, {Herwig},
-  {Lesaffre}, \& {Timmes}}]{2010ascl.soft10083P}
-{Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2010, {MESA: Modules for
-  Experiments in Stellar Astrophysics}, Astrophysics Source Code Library,
-  ascl:1010.083
-
 \bibitem[{{Paxton} {et~al.}(2011){Paxton}, {Bildsten}, {Dotter}, {Herwig},
   {Lesaffre}, \& {Timmes}}]{2011ApJS..192....3P}
----. 2011, \apjs, 192, 3
+{Paxton}, B., {Bildsten}, L., {Dotter}, A., {et~al.} 2011, \apjs, 192, 3
 
 \bibitem[{{Pelupessy} {et~al.}(2012){Pelupessy}, {J{\"a}nes}, \& {Portegies
   Zwart}}]{2012NewA...17..711P}
@@ -126,26 +113,17 @@ Oliphant, T.~E. 2006, {A guide to NumPy}, Vol.~1 (Trelgol Publishing USA)
 \bibitem[{{Perets} \& {Fabrycky}(2009)}]{2009ApJ...697.1048P}
 {Perets}, H.~B., \& {Fabrycky}, D.~C. 2009, \apj, 697, 1048
 
-\bibitem[{{Portegies Zwart}(2019)}]{2019A&A...621L..10P}
-{Portegies Zwart}, S. 2019, \aap, 621, L10
+\bibitem[{{Portegies Zwart}(2018)}]{2018arXiv181100058P}
+{Portegies Zwart}, S. 2018, arXiv e-prints, arXiv:1811.00058
 
 \bibitem[{{Portegies Zwart} \& {McMillan}(2018)}]{AMUSE}
 {Portegies Zwart}, S., \& {McMillan}, S. 2018, {Astrophysical Recipes: the Art
   of AMUSE} (AAS IOP Astronomy ({\em in press}))
 
-\bibitem[{{Portegies Zwart} {et~al.}(2013{\natexlab{a}}){Portegies Zwart},
-  {McMillan}, {van Elteren}, {Pelupessy}, \& {de Vries}}]{2013CoPhC.183..456P}
+\bibitem[{{Portegies Zwart} {et~al.}(2013){Portegies Zwart}, {McMillan}, {van
+  Elteren}, {Pelupessy}, \& {de Vries}}]{2013CoPhC.183..456P}
 {Portegies Zwart}, S., {McMillan}, S.~L.~W., {van Elteren}, E., {Pelupessy},
-  I., \& {de Vries}, N. 2013{\natexlab{a}}, Computer Physics Communications,
-  183, 456
-
-\bibitem[{Portegies~Zwart {et~al.}(2018)Portegies~Zwart, van Elteren,
-  Pelupessy, McMillan, Rieder, de~Vries, Marosvolgyi, Whitehead, Wall, Drost,
-  Jilkova, Martinez~Barbosa, van~der Helm, Beedorf, Bos, Boekholt, van
-  Werkhoven, Wijnen, Hamers, Caputo, Ferrari, Toonen, Gaburov, Paardekooper,
-  Janes, Punzo, Kruip, \& Altay}]{portegies_zwart_simon_2018_1443252}
-Portegies~Zwart, S., van Elteren, A., Pelupessy, I., {et~al.} 2018, {AMUSE: the
-  Astrophysical Multipurpose Software Environment}, doi:10.5281/zenodo.1443252
+  I., \& {de Vries}, N. 2013, Computer Physics Communications, 183, 456
 
 \bibitem[{{Portegies Zwart}(1995)}]{1995A&A...296..691P}
 {Portegies Zwart}, S.~F. 1995, \aap, 296, 691
@@ -160,17 +138,8 @@ Portegies~Zwart, S., van Elteren, A., Pelupessy, I., {et~al.} 2018, {AMUSE: the
 {Portegies Zwart}, S.~F., {Hut}, P., \& {Verbunt}, F. 1997{\natexlab{b}}, \aap,
   328, 130
 
-\bibitem[{{Portegies Zwart} {et~al.}(2013{\natexlab{b}}){Portegies Zwart},
-  McMillan, van Elteren, Pelupessy, \& de~Vries}]{PortegiesZwart2013456}
-{Portegies Zwart}, S.~F., McMillan, S.~L., van Elteren, A., Pelupessy, F.~I.,
-  \& de~Vries, N. 2013{\natexlab{b}}, Computer Physics Communications, 184, 456
-
 \bibitem[{{Portegies Zwart} \& {Verbunt}(1996)}]{1996A&A...309..179P}
 {Portegies Zwart}, S.~F., \& {Verbunt}, F. 1996, \aap, 309, 179
-
-\bibitem[{{Portegies Zwart} \& {Verbunt}(2012)}]{2012ascl.soft01003P}
----. 2012, {SeBa: Stellar and binary evolution}, Astrophysics Source Code
-  Library, ascl:1201.003
 
 \bibitem[{{Sandage}(1953)}]{1953AJ.....58...61S}
 {Sandage}, A.~R. 1953, \aj, 58, 61
@@ -179,11 +148,6 @@ Portegies~Zwart, S., van Elteren, A., Pelupessy, I., {et~al.} 2018, {AMUSE: the
   {Milone}}]{2003AJ....125..810S}
 {Sandquist}, E.~L., {Latham}, D.~W., {Shetrone}, M.~D., \& {Milone}, A.~A.~E.
   2003, \aj, 125, 810
-
-\bibitem[{{Shi} {et~al.}(2012){Shi}, {Krolik}, {Lubow}, \&
-  {Hawley}}]{2012ApJ...749..118S}
-{Shi}, J.-M., {Krolik}, J.~H., {Lubow}, S.~H., \& {Hawley}, J.~F. 2012, \apj,
-  749, 118
 
 \bibitem[{{Simunovic} \& {Puzia}(2014)}]{2014ApJ...782...49S}
 {Simunovic}, M., \& {Puzia}, T.~H. 2014, \apj, 782, 49
@@ -199,10 +163,5 @@ Portegies~Zwart, S., van Elteren, A., Pelupessy, I., {et~al.} 2018, {AMUSE: the
   {Stassun}}]{2001A&A...375..375V}
 {van den Berg}, M., {Orosz}, J., {Verbunt}, F., \& {Stassun}, K. 2001, \aap,
   375, 375
-
-\bibitem[{{White}(????)}]{1995LesHouchesSWhite}
-{White}, S. ????, in Stellar Populations, Les Houches lectures, vol.\, 164.
-  Springer, Dordrecht editor = {{van der Kruit}, P. and {Gilmore}, G.}, year =
-  1995, eprint = {1994astro.ph.10043W}, volume = {164}
 
 \end{thebibliography}
