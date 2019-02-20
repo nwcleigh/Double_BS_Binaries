@@ -383,7 +383,8 @@ assumed formation scenario for Binary 7782, described below, is
 depicted in figure~\ref{fig:fig1}.
 
 \begin{figure}[ht!]
-\plotone{fig_doodle.eps}
+%\plotone{fig_doodle.eps}
+\includegraphics[width=\columnwidth]{fig_doodle.pdf}
 \caption{Cartoon depiction of our proposed scenario for the formation
   of Binary 7782, specifically mass transfer from an evolved outer
   tertiary companion on to a compact inner binary via a circumbinary
@@ -458,7 +459,8 @@ range of initial conditions for the outer orbit, namely 2.2 $\times$
 %gaseous ring around the inner binary.
 
 \begin{figure}[ht!]
-\plotone{fig_parameterspace.eps}
+%\plotone{fig_parameterspace.eps}
+\includegraphics[width=\columnwidth]{fig_parameterspace.pdf}
 \caption{Parameter space in the P$_{\rm out}$-P$_{\rm in}$-plane
   allowed for the hypothetical outer tertiary orbit of Binary 7782
   before Roche-lobe overflow.  The solid diagonal black line shows the
@@ -482,7 +484,7 @@ a$_{\rm in} <$ 0.1a$_{\rm out}$ is required for long-term dynamical
 stability in equal-mass co-planar triples).  The vertical solid red
 lines show the outer orbital periods corresponding to the hard-soft
 boundary assuming central velocity dispersions of $\sigma =$ 1, 5 and
-10 km s$^{-1}$.  The vertical dashed black lines show the maximum
+10 km s$^{-1}$.  The vertical dashed black line show the maximum
 outer orbital period P$_{\rm out}$ for which the outer tertiary
 companion is Roche lobe-filling, assuming a stellar radius of R$_{\rm
   3} =$ 200 R$_{\odot}$ (which corresponds to the maximum stellar
@@ -614,9 +616,9 @@ replace the stellar core by a point mass to prevent the majority of
 the resolution to be confined in the star's central regions.  In a
 following step we relax the star using the hydrodynamics solver. This
 relaxation process is realized in 100 steps during which we reduce the
-velocity dispersion of individual SPH particles to a glasses structure
-\citep[see, for example, \S\,3.3 on page 40
-  in][]{1995LesHouchesSWhite}. During this procedure, the gaseous
+velocity dispersion of individual SPH particles to a glasses structure 
+%\citep[see, for example, \S\,3.3 on page 40 in][]{1995LesHouchesSWhite}. 
+(see, for example, \S\,3.3 on page 40 in White (1995)).  During this procedure, the gaseous
 envelope of the star tends to expand by about 20\%.  To determine the
 radius of the evolving star we calculate Lagrangian radii and use the
 distance to the stellar center which contains 90\% of its mass. From
@@ -724,8 +726,8 @@ scale for which we performed the calculations, this efficiency is
 reached, but it is not clear how the system responds at later stages.
 
 \begin{figure*}[ht!]
-  \includegraphics[width=0.5\linewidth]{fig_BBSS_Lgas_M14Msun_A010au_t3360.pdf}
-~  \includegraphics[width=0.5\linewidth]{fig_BBSS_gas_M14Msun_A010au_t3360.pdf}
+  \includegraphics[width=0.5\linewidth]{fig_BBSS_Lgas_M14Msun_A010au_t3360.png}
+~  \includegraphics[width=0.5\linewidth]{fig_BBSS_gas_M14Msun_A010au_t3360.png}
 \caption{Same as figure~\ref{fig:topview_at_t0} but at an age of $t
   \simeq 1091\,days$ after the start of the simulation. Left panel
   shows the equipotential surfaces of the triple overplotted with the
