@@ -1,0 +1,321 @@
+Response to Reviewer Reports for Manuscript ID AAS15718
+
+Dear Reviewers,
+
+	Thank you very kindly for these suggestions for improvement.
+	We have done our best to address each of them in detail.
+	Below, we respond to each point, indicated in bold-faced font.
+	We have also indicated edits to our manuscript with bold-faced
+	font, which we point to below.  We hope that you will agree
+	that our manuscript now meets the criteria for acceptance in
+	ApJL.
+
+Kindest regards,
+
+Simon Portegies Zwart
+Nathan Leigh
+
+Reviewer #1:
+
+The authors propose a novel formation mechanism for twin blue stragglers in compact binaries that involves mass transfer from a third companion in a triple system. They apply this new scenario to the observed double blue straggler system Binary 7782 in the old open cluster NGC 188. The idea in the paper is novel and the process described very interesting. Therefore, I would recommend the letter for publication once the following issues have been addressed.
+
+Main:
+
+1) The dynamical analysis performed to constrain the properties of the triple system should also include the typical timescale for triple-single stars and triple-binary stars interactions. Maybe these additional timescale will not put additional constraints in Fig.2 , but they should be at least mentioned and calculated under reasonable assumptions.
+
+SPZ/NL: This is a good and important point.  We have now quantified
+the possible effects of the 1+3 and 2+3 timescales, by setting these
+timescales equal to the cluster lifetime as well as the expected total
+duration of the mass transfer phase and solving for the critical outer
+tertiary orbital period for such interactions.  Using the same
+assumptions for the host cluster properties of NGC 188 outlined in
+Section 3.2 of Leigh & Sills 2011 (right-hand column), we find upon
+setting the 1+3 and 2+3 timescales equal to the cluster lifetime
+(i.e., 4 Gyr) critical outer orbital periods for triples of 52.5 and
+157.8 days, respectively.  However, these critical orbital periods
+correspond to the times for any triple to undergo, respectively, a 1+3
+or 2+3 interaction.  Hence, all this really tells us is that a
+non-negligible fraction of primordial triples will have experienced
+such an interaction within the cluster lifetime (but likely not all).
+Meanwhile, triples could also form dynamically due to binary-binary
+interactions, which have even shorter interaction timescales.
+
+For comparison, if we compute the critical orbital periods
+corresponding to the timescales for a specific triple to undergo
+either a 1+3 or 2+3 interaction, and if we set the 1+3 and 2+3
+timescales equal to the typical duration expected for mass transfer,
+which is of order 1 Myr (i.e., corresponding to the expected duration
+of the RGB phase, which is longer than is expected for the AGB phase),
+then we obtain critical orbital periods of, respectively, 8.1 x 108
+and 2.4 x 109 days.  The critical outer tertiary orbital periods
+corresponding to such short interaction times are much longer than the
+maximum predicted outer orbital period of the hypothesized white dwarf
+tertiary in our scenario, and fall outside of the current range of
+orbital periods shown on the x-axis in figure 2.  Hence, we do not
+expect the mass transfer process to be interrupted by either 1+3 and
+2+3 interactions.  Rather than include these critical orbital periods
+in figure 2, we have included a paragraph on this in the text,
+indicated in bold-faced font.
+
+SIMON: I am happy to include these critical orbital periods in Figure
+2, but do you think we should (I would argue not), and should assume 1
+Myr for the duration of the MT process?  If I recall my stellar
+evolution, this corresponds roughly the timescale for the RGB phase,
+and I believe the AGB phase is much shorter.  As it is, I have added a
+paragraph to the end of Section 2, but it takes up space, and I think
+can ultimately be removed for that reason.
+
+NATHAN: I agree. What counts here is the thermal time scale of the
+Roche-lobe filling star, which is even shorter than 1Myr, but rather
+something like a few thens of thousands of years. Much shorter than
+any dynamical timescale in the cluster.
+
+2) The authors fix the amount of angular momentum lost per unit mass to eta=3. How did they estimate this number? Please, provide some additional information and references. Could the value of this number be the reason of the discrepancy between the theoretical expectations and the simulation results in Fig. 6? 
+
+SPZ/NL: Indeed, this is one of these magic parameters that have
+received relatively little attention in the recent literature, even
+though it's value is very important. We adopt the approach as
+advocated in Pols etal 1991 and Portegies Zwart 1995 with further
+suport by the analysis of Pols 2007 and Krticka etal 2011. We do not
+really know how much angular momentum is lost per unit mass in a
+non-conservative binary system, but interestingly enough our analysis
+in this paper appears to be consistent with these earlier findings.
+We comment on this in the main text in the added sentence near Eq. 3.
+
+3) The authors should elaborate more on the reason why there is a large discrepancy in the plots shown in Fig. 6. What could be the main reasons? And why for a donor of 1.2 Msun the discrepancy is larger?
+
+SPZ/NL: Let's first point out that the trends are rather
+consistent. The 1.2 Msun donor's seem to be doing something similar as
+the 1.4Msun donors. Except that the more massive donors follow the
+required trend in order to be able to explain the observed system.
+Then, the inner orbits of the 1.2MSun donors tend to shrink, whereas
+the more massive donors drive the expansion of the inner orbit.
+
+4) The authors adopt an initial inner binary of 0.9 Msun-1.1 Msun. I understand that the calculations may be long and complicated, but they should present results for an additional run where they change the masses of the inner binary, as they have already done in the case of the third companion. These would make stronger their claim that the inner binary would evolve towards a mass ratio of unity.
+
+SPZ/NL: As we pointed out in the manuscript, we do not really
+understand the subtleties of angular momentum transport in
+non-conservatively evolving binaries. In triples additional
+complications are introduced by the third component. I fear that this
+process require much more study, which we think, would be really
+interesting to persue. However, for this manuscript we prefer to focus
+on the initial conditions that are most likely to reproduce the
+observe twin blue straggler, and for that discussion we think that the
+1.2Msun donor does not lead to final parameters that are consistent
+with this observed system.
+
+5) Other interesting plots would be the evolution in time of the
+masses of the three stars and their spins, and, more importantly of
+the inner binary eccentricity.
+
+SPZ/NL: The eccentricity of the inner binary remains small. It remains
+below 0.02 for an inner orbital separation of 0.2au, and below 0.01
+for the tighter inner orbits. We add a comment to this effect in the
+paper.
+
+For the evolution of the masses of the three stars we have figure 6.
+to allow for a discussion on the initial mass-ratio of the inner
+binary, we add a new figure (7), in which we present the mass ratio of
+the inner binary as a function of the total mass of the inner binary
+(both normalized). Here we demonstrate that the inner binary star
+grows gradually to more equal masses, and that this effect is stronger
+when the initial inner mass ratio is smaller. Interestingly, the an
+initial mass-ratio of 0.9MSun/1.1MSun appears to be less favorable for
+growing to two equal mass stars, when when we start with alower
+initial mass ratio, for example using 0.7MSun/1.1MSun. We may refine
+our conclusion that maybe a lower initial mass ratio for the inner
+binary is favored over an initially more equal mass binary. However,
+the observational constraints are insufficient to boltser this
+conclusions at this point.
+
+
+Minor:
+
+1) In the abstract, the authors are missing the point "(2)" somewhere in the text.
+
+SPZ/NL:  Fixed.  Thank you for catching this.
+
+2) In the line after Eq. 2, the mentioned semi-major axes are not in a latex math style. Please, check this throughout the paper.
+
+SPZ/NL: fixed
+
+3) Figure 1 is maybe a bit small and readers would benefit from having a bigger figure.
+
+SPZ/NL:  Fixed, for both figures 1 and 2.
+
+4) The caption of Fig. 6 left panel needs attention. There are typos like "10 AU" instead of "0.10 AU", and so on.
+
+SPZ/NL:  Ow. that is rather sloppy. Apologies. fixed.
+
+5) In the summary section, there is "clusters with a MS turn-off" instead of "stars with a MS turn-off" (point 5 of the summary).
+
+SPZ/NL:  Fixed.
+
+====================================
+Reviewer #2:
+
+It has been my pleasure to review the manuscript A Triple Origin for Twin Blue Stragglers in Close Binaries by Portegies Zwart and Leigh. This paper reports a new and well-executed idea regarding the formation of a binary star that includes two blue stragglers. This system challenges the usually proposed blue straggler formation mechanisms.
+
+This paper is certainly interesting and the work well done. Particularly impressive is the integration of a wide array of numerical tools to simulate the equally wide array of processes and scales in the problem. It is a powerful demonstration of the AMUSE framework into which so much effort has been invested. Of course there are always caveats in the results of each numerical tool, but even so the work certainly merits publication.
+
+Whether it constitutes high-impact astronomical research meriting rapid publication as an ApJ Letter is less clear. The broad concept of mass transfer from a tertiary or a circumbinary disk onto a binary is not new, and so I don't think that the paper will have broad high-impact. However, the predictions of the paper may immediately influence the work of observers in the field, and on that basis I would lean toward publication in ApJ Letters.
+
+Specific notes in the main text; suggested changes in [brackets]:
+
+[Most] blue straggler stars are brighter and bluer than the main-sequence - the blue straggler domain has been opened wider by observations in recent years.
+
+SPZ/NL:  Fixed.
+
+It would be worth noting the expected (or not) companions to the two merger mechanisms, since the presence/nature of a companion is key to the story of this manuscript.
+
+SPZ/NL:  Fixed – please see the first paragraph of the Introduction.
+
+I think the introductory text on S1082 is rather long and unnecessary given that it has no relevance to this paper. I would suggest condensing to 1-2 sentences.
+
+SPZ/NL:  Fixed.
+
+called [WOCS] 7782 - here and throughout; cite Geller et al. 2008 if you wish.
+
+SPZ/NL:  Fixed throughout the manuscript.
+
+Important - "Dynamically, it is difficult to form a short-period binary composed of two collision products during a collisional interaction in a star cluster." I am not clear if by this statement the authors are excluding an exchange into a BS-[WD or MS] binary of another BS, creating 7782. This scenario has been posed previously. More broadly, with one stroke of this sentence, the authors are ruling out a host of other pathways to this binary. If that is their intent, this merits more justification. (To be clear, I don't think that they need to rule out all other scenarios for their scenario to be interesting.)
+
+SPZ/NL:  This is of course a very valid point.  We do not intend to concretely rule out other formation channels, but rather to highlight that a purely dynamical formation channel likely has a low probability of occurring.  This is because, as explained in Leigh & Sills (2011), the energetics of a 1+2 interaction involving a BS and a pre-existing BS-MS or BS-WD system with a long orbital period are such that it is unlikely that the result will be a BS-BS binary with a short orbital period as is observed for WOCS 7782. And, as shown in Mathieu & Geller (2009), there are only two short-period BS binaries in NGC 188, such that the relevant 1+2 interaction time should be for a specific short-period BS binary, which increases the expected interaction time considerably such that it will exceed the expected BS lifetime.  To save on space, we have included a very brief mention of this in the draft.
+
+before it leaves the asymptotic giant branch. - At this point in the paper, it is not evident why this needs to be AGB mass transfer and not RG mass transfer. That is, at this point it is not "according to this scenario"?
+
+SPZ/NL: We ware not very clear about this.  the scenario only works
+for donors on the giant branch. Not on the Hertzsprung-gap and not on
+the AGB. We made that clear now in fig. 3 by painting these parts of
+the curve indicating the stellar radius orange.
+
+
+Important - "For clarity we assume both orbits, the inner as well as the outer, to have negligible eccentricity and low inclination." Might I suggest "For specificity"? 
+
+Yes, we do that now.
+
+SPZ/NL:  Fixed.
+
+More importantly, what is the significance of these assumptions? Is the goal of this paper simply to show that the proposed scenario can happen, in which case my last question is not as important. But if the goal is more generality, than these assumptions do matter.
+
+SPZ/NL: Our prime objective is to demonstrate that this scenario
+works. We do not really desire to cover parameter space or indicate in
+which part of parameter space this scenario works. This may be very
+interestsing, but for a future paper.
+
+"We assume initial component masses of m1=1.1M⊙ and m2=0.9M⊙ for the inner binary components, and m3 = 1.4M⊙ for the outer tertiary." - Where did these assumptions for m2 and m3 come from? What is there motivation? And essentially the same question for exploring the range of 1.2⊙ < m3 < 1.4⊙ in Section 3.1. (As an aside, the way this is written, I first thought that these assumptions were being made for the entire paper, not just this section of the paper, which caused me some concern. This was not clarified/resolved (at least for m3) until Sections 3.1 and 4.
+Perhaps the authors might want to make clearer here that here these assumptions are only for parameter delineation?)
+
+SPZ/NL: These are good points, and yes this is effectively our choice
+for parameter delineation that we expected to work best for a “proof
+of concept” illustration via our simulations.  For instance, if the
+initial mass ratio of the inner binary is too large, then it can occur
+that not enough mass can be transferred to bring the inner binary
+toward a mass ratio of unity. We added an explanation to the text to
+express and motivate our rather explicite choice of parameters.
+
+
+and the amount of angular momentum lost per unit mass η ≃ 3. Again, this number comes out of the blue?
+
+SPZ/NL: Indeed, this is one of these magic parameters that have
+received relatively little attention in the recent literature, even
+though it's value is very important. We adopt the approach as
+advocated in Pols etal 1991 and Portegies Zwart 1995 with further
+suport by the analysis of Pols 2007 and Krticka etal 2011. We do not
+really know how much angular momentum is lost per unit mass in a
+non-conservative binary system, but interestingly enough our analysis
+in this paper appears to be consistent with these earlier findings.
+We comment on this in the main text in the added sentence near Eq. 3.
+
+
+Tidal effects during mass tran[s]fer have probably circularized the orbit, although some slight 
+SPZ?NL:  Fixed.
+
+eccentricity due to turbulent motion in the outer layers of the donor star may have induced a small e ≪ 0.1 eccentricity - This has been the canonical assumption, but in fact observations don't support it (e.g., Mathieu & Geller 2009) and recent theoretical papers indicate why it might not happen. If the authors wish to stipulate this as yet another assumption of the paper, that is fine, but should be noted as such.
+
+SPZ/NL: we leave out the remark about the low eccentricity of the outer orbit.
+
+see red square[s] 
+
+SPZ/NL:  Fixed.
+
+We follow the same procedure as described in de Vries et al. (2014) for simulating the future of the triple system χ Tau (HD 97131) in which the outer-most star overfills its Roche lobe and transfers mass to an inner binary. - Wouldn't it be appropriate to reference this paper (and perhaps other work - Mosta et al, others unknown to me) at the beginning of the last paragraph of the introduction? The idea being suggested here has a prior history.
+
+SPZ/NL:  Done.
+
+250 R⊙[ ]for the 100 R⊙[ ]donor star 
+
+SPZ/NL:  Fixed.
+
+If length is an issue, I think Figure 4 could be sacrificed. In any case, it should be zoomed in so that the system itself is more easily seen. (To be honest, I am totally perplexed by "The two companion stars are represented as black bullets (to the right).")
+
+SPZ/NL: We removed figure 4. the referee is right that it does not really add much to the paper.
+The "black bullets to the right" was a typo, left over after meny iterations of refinement.
+
+To test the hypotheses that (1) the secondary in the inner binary accretes more effectively than the primary star and to measure the change to the inner orbit due to the Roche-lobe overflow of the outer star, we perform a series of calculations in which we take the self gravity and the hydrodynamical effects of the triple into account. - I am perplexed as to the meaning of (1) when there is no (2)? More broadly, this seems like an oddly specific issue with which to start this section. The next sentence in the paragraph seems like the more reasonable starting point?
+
+SPZ/NL:  This text has now been edited accordingly.
+
+quanti[fy] the amount of material los[s], 
+SPZ/NL:  Fixed.
+
+This value is hard to estimate from the simulations, but an accretion efficiency of ∼> 0.6 is necessary to make the scenario feasible. - Please clarify what is meant by "feasible"? Does this mean feasible technically, or feasible in making the two blue stragglers, or ... ?
+
+SPZ/NL: This means feasible in terms of being able to reproduce the
+observed parameters of the system (or at least parameters consistent
+with the available observational data), such as sufficient mass
+accretion to drive both stars in the inner binary toward a mass ratio
+of unity. The most extreme mass ratio of 1.1+ 0.5Msun for the inner
+binary with an 1.4MSun donor could in principle lead to two 1.4MSun
+blue stragglers, but in that case mass transfer has to be
+conservative. In our simulations, only a fraction of the mass lost
+from the donor is accreted by the two companion stars. We cannot
+exclude the possibility that even mass that appears to be ejected from
+the system eventually falls back. However, our simulations did not
+last sufficiently long to validate this point. We prefer to remain
+somewhat conservative (no pun intended).
+
+and the orbital evolution of the inner binary matches better with the anticipated evolution. - I'm not following the meaning of "anticipated evolution"? Does this mean matching the observed binary?
+
+SPZ/NL:  Yes, this was our intended meaning, and we have now included a phrase highlighted in bold-faced font to better indicate this.
+
+[In a]ll three cases for the 1.4 M⊙ donor presented in figure 6 the inner orbit expands at about the same rate. By the end of the simulation the spins of the two BSs are aligned along the orbital angular momentum axis with an angle of 90.0◦ for the primary star and 93.4◦ for the secondary star with respect to the argument of pericenter of the inner orbit. - I'm a bit confused about the significance of this outcome, and why it is being reported. Earlier the text mentions "low inclination", but I believe that is the only information we are given about the original spin and orbital alignments. Resolving these comments is also important for the third prediction in the Summary.
+
+SPZ/NL:  Fixed the typo.  We made a prediction that the spin angular momenta of the stars should become more or less aligned post-mass transfer, given that non-negligible mass is accreted.  This was to highlight that the simulations do indeed reproduce this basic expectation.  We have now included a brief sentence better explaining this prediction and result.
+
+"By the end of the simulations the spin of the primary is about 50.5 rotations per day, and 41.5 rotations per day for the secondary star." - The authors might want to reference Leiner et al. 2018 for observational "confirmation" of these spin rates early in the lifetime of mass transfer products. Similarly, the current stars are not spinning this fast. Some explanation is merited.
+
+SPZ/NL:  We do not have sufficient space to elaborate on these points in great detail, but magnetic braking has been proposed to explain the spin-down of the accretors post-mass transfer, which could render their “final” spin rates in better agreement with the observations.  We have included a brief sentence to better explain this, and referenced Leiner et al. 2018 to support it.
+
+The first three paragraphs of Section 5: Discussion are a summary, not a discussion. They should be integrated into Section 6: Summary. Alternatively, and perhaps better, the predictions of Section 6: Summary might more appropriately be the Discussion, while these first three paragraphs might become the Summary.
+
+SPZ:NL:  We have now edited the Discussion and Summary as recommended, but note than we do not highlight this change in bold-faced font for ease of reading.
+
+The remaining two points of the current Section 5: Discussion are mildly interesting, but could be removed if length is an issue.
+
+SPZ/NL:   We may want to leave this to the editor to decide.
+
+The proposed scenario involves mass transfer from an evolved outer tertiary companion[. P]art of this mass is accreted by the inner binary via a circumbinary disk[, while] the rest escapes through the second and third Lagrangian points in the potential of the triple system. 
+
+SPZ/NL:  Fixed.
+
+"Our scenario makes several predictions for the observed properties of a hypothetical outer triple companion, now a WD." - Kudos to the authors for making predictions regarding the tertiary in order to test their hypothesis for 7782. But I am a bit puzzled about their first bullet, which isn't in fact a testable prediction?
+
+SPZ/NL:  We have included a sentence here explaining how this relates directly to a prediction for a comparable final orbital period for the proposed outer tertiary.
+
+"Note that part of the mass liberated from the triple system through the second and third Lagrangian points may eventually be accreted back onto the system. This could have interesting consequences for the enrichment of the low-mass white dwarf." - This seems more relevant to point 4? I might even suggest that point 4 be split into two predictions, one having to do with the mass ratio and one having to do with enrichment.
+
+SPZ/NL: Very interesting point. Thanks for pointing this out.
+We have edited both of these bullet points as recommended.
+
+Specific notes on the abstract:
+
+Broadly speaking, the abstract is rather unusual in that it is not at all an abstract of the paper but rather a restatement of the predictions in the current Summary. As I wrote above, it is very good that the authors are making explicit predictions. But an abstract is intended to permit a reader to be informed about the entire essential content of a paper, and as such this abstract does not seem appropriately constructed.
+
+SPZ/NL: We think that abstract maybe a bit controversial in comparison
+with other abstracts, but we think that it covers the content of the
+paper and the presented work.
+
+"are naturally reproduced" - this is an overstatement given the tuning and uncertainties of the simulations; please change to "can be reproduced".
+
+SPZ/NL:  Fixed.
