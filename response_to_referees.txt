@@ -57,26 +57,13 @@ expect the mass transfer process to be interrupted by either 1+3 and
 in figure 2, we have included a paragraph on this in the text,
 indicated in bold-faced font.
 
-SIMON: I am happy to include these critical orbital periods in Figure
-2, but do you think we should (I would argue not), and should assume 1
-Myr for the duration of the MT process?  If I recall my stellar
-evolution, this corresponds roughly the timescale for the RGB phase,
-and I believe the AGB phase is much shorter.  As it is, I have added a
-paragraph to the end of Section 2, but it takes up space, and I think
-can ultimately be removed for that reason.
-
-NATHAN: I agree. What counts here is the thermal time scale of the
-Roche-lobe filling star, which is even shorter than 1Myr, but rather
-something like a few thens of thousands of years. Much shorter than
-any dynamical timescale in the cluster.
-
 2) The authors fix the amount of angular momentum lost per unit mass to eta=3. How did they estimate this number? Please, provide some additional information and references. Could the value of this number be the reason of the discrepancy between the theoretical expectations and the simulation results in Fig. 6? 
 
 SPZ/NL: Indeed, this is one of these magic parameters that have
 received relatively little attention in the recent literature, even
 though it's value is very important. We adopt the approach as
-advocated in Pols etal 1991 and Portegies Zwart 1995 with further
-suport by the analysis of Pols 2007 and Krticka etal 2011. We do not
+advocated in Pols et al 1991 and Portegies Zwart 1995 with further
+support from the analysis of Pols 2007 and Krticka etal 2011. We do not
 really know how much angular momentum is lost per unit mass in a
 non-conservative binary system, but interestingly enough our analysis
 in this paper appears to be consistent with these earlier findings.
@@ -95,12 +82,12 @@ the more massive donors drive the expansion of the inner orbit.
 
 SPZ/NL: As we pointed out in the manuscript, we do not really
 understand the subtleties of angular momentum transport in
-non-conservatively evolving binaries. In triples additional
+non-conservatively evolving binaries. In triples, additional
 complications are introduced by the third component. I fear that this
 process require much more study, which we think, would be really
-interesting to persue. However, for this manuscript we prefer to focus
+interesting to pursue. However, for this manuscript we prefer to focus
 on the initial conditions that are most likely to reproduce the
-observe twin blue straggler, and for that discussion we think that the
+observed twin blue straggler, and for that discussion we think that the
 1.2Msun donor does not lead to final parameters that are consistent
 with this observed system.
 
@@ -119,14 +106,14 @@ binary, we add a new figure (7), in which we present the mass ratio of
 the inner binary as a function of the total mass of the inner binary
 (both normalized). Here we demonstrate that the inner binary star
 grows gradually to more equal masses, and that this effect is stronger
-when the initial inner mass ratio is smaller. Interestingly, the an
+when the initial inner mass ratio is smaller. Interestingly, the 
 initial mass-ratio of 0.9MSun/1.1MSun appears to be less favorable for
-growing to two equal mass stars, when when we start with alower
+growing two equal mass stars, when we start with a lower
 initial mass ratio, for example using 0.7MSun/1.1MSun. We may refine
 our conclusion that maybe a lower initial mass ratio for the inner
 binary is favored over an initially more equal mass binary. However,
-the observational constraints are insufficient to boltser this
-conclusions at this point.
+the observational constraints are insufficient to bolster this
+conclusion at this point.
 
 
 Minor:
@@ -137,7 +124,7 @@ SPZ/NL:  Fixed.  Thank you for catching this.
 
 2) In the line after Eq. 2, the mentioned semi-major axes are not in a latex math style. Please, check this throughout the paper.
 
-SPZ/NL: fixed
+SPZ/NL: Fixed.
 
 3) Figure 1 is maybe a bit small and readers would benefit from having a bigger figure.
 
@@ -145,7 +132,7 @@ SPZ/NL:  Fixed, for both figures 1 and 2.
 
 4) The caption of Fig. 6 left panel needs attention. There are typos like "10 AU" instead of "0.10 AU", and so on.
 
-SPZ/NL:  Ow. that is rather sloppy. Apologies. fixed.
+SPZ/NL:  Ow. that is rather sloppy. Apologies. Fixed.
 
 5) In the summary section, there is "clusters with a MS turn-off" instead of "stars with a MS turn-off" (point 5 of the summary).
 
@@ -184,15 +171,12 @@ SPZ/NL:  This is of course a very valid point.  We do not intend to concretely r
 
 before it leaves the asymptotic giant branch. - At this point in the paper, it is not evident why this needs to be AGB mass transfer and not RG mass transfer. That is, at this point it is not "according to this scenario"?
 
-SPZ/NL: We ware not very clear about this.  the scenario only works
-for donors on the giant branch. Not on the Hertzsprung-gap and not on
-the AGB. We made that clear now in fig. 3 by painting these parts of
+SPZ/NL: Our apologies, since we were not very clear about this.  The scenario only works for donors on the giant branch; not on the Hertzsprung-gap and not on
+the AGB. We have now made that clear in fig. 3 by painting these parts of
 the curve indicating the stellar radius orange.
 
 
 Important - "For clarity we assume both orbits, the inner as well as the outer, to have negligible eccentricity and low inclination." Might I suggest "For specificity"? 
-
-Yes, we do that now.
 
 SPZ/NL:  Fixed.
 
@@ -201,7 +185,7 @@ More importantly, what is the significance of these assumptions? Is the goal of 
 SPZ/NL: Our prime objective is to demonstrate that this scenario
 works. We do not really desire to cover parameter space or indicate in
 which part of parameter space this scenario works. This may be very
-interestsing, but for a future paper.
+interesting, but for a future paper.
 
 "We assume initial component masses of m1=1.1M⊙ and m2=0.9M⊙ for the inner binary components, and m3 = 1.4M⊙ for the outer tertiary." - Where did these assumptions for m2 and m3 come from? What is there motivation? And essentially the same question for exploring the range of 1.2⊙ < m3 < 1.4⊙ in Section 3.1. (As an aside, the way this is written, I first thought that these assumptions were being made for the entire paper, not just this section of the paper, which caused me some concern. This was not clarified/resolved (at least for m3) until Sections 3.1 and 4.
 Perhaps the authors might want to make clearer here that here these assumptions are only for parameter delineation?)
@@ -212,7 +196,7 @@ of concept” illustration via our simulations.  For instance, if the
 initial mass ratio of the inner binary is too large, then it can occur
 that not enough mass can be transferred to bring the inner binary
 toward a mass ratio of unity. We added an explanation to the text to
-express and motivate our rather explicite choice of parameters.
+express and motivate our rather explicit choice of parameters.
 
 
 and the amount of angular momentum lost per unit mass η ≃ 3. Again, this number comes out of the blue?
@@ -220,8 +204,8 @@ and the amount of angular momentum lost per unit mass η ≃ 3. Again, this numb
 SPZ/NL: Indeed, this is one of these magic parameters that have
 received relatively little attention in the recent literature, even
 though it's value is very important. We adopt the approach as
-advocated in Pols etal 1991 and Portegies Zwart 1995 with further
-suport by the analysis of Pols 2007 and Krticka etal 2011. We do not
+advocated in Pols et al 1991 and Portegies Zwart 1995 with further
+support coming from the analysis of Pols 2007 and Krticka etal 2011. We do not
 really know how much angular momentum is lost per unit mass in a
 non-conservative binary system, but interestingly enough our analysis
 in this paper appears to be consistent with these earlier findings.
@@ -229,11 +213,12 @@ We comment on this in the main text in the added sentence near Eq. 3.
 
 
 Tidal effects during mass tran[s]fer have probably circularized the orbit, although some slight 
-SPZ?NL:  Fixed.
+
+SPZ/NL:  Fixed.
 
 eccentricity due to turbulent motion in the outer layers of the donor star may have induced a small e ≪ 0.1 eccentricity - This has been the canonical assumption, but in fact observations don't support it (e.g., Mathieu & Geller 2009) and recent theoretical papers indicate why it might not happen. If the authors wish to stipulate this as yet another assumption of the paper, that is fine, but should be noted as such.
 
-SPZ/NL: we leave out the remark about the low eccentricity of the outer orbit.
+SPZ/NL: We have left out the remark about the low eccentricity of the outer orbit.
 
 see red square[s] 
 
@@ -249,14 +234,14 @@ SPZ/NL:  Fixed.
 
 If length is an issue, I think Figure 4 could be sacrificed. In any case, it should be zoomed in so that the system itself is more easily seen. (To be honest, I am totally perplexed by "The two companion stars are represented as black bullets (to the right).")
 
-SPZ/NL: We removed figure 4. the referee is right that it does not really add much to the paper.
-The "black bullets to the right" was a typo, left over after meny iterations of refinement.
+SPZ/NL: We removed figure 4. The referee is right that it does not really add much to the paper.  The "black bullets to the right" was a typo, left over after many iterations of refinement.
 
 To test the hypotheses that (1) the secondary in the inner binary accretes more effectively than the primary star and to measure the change to the inner orbit due to the Roche-lobe overflow of the outer star, we perform a series of calculations in which we take the self gravity and the hydrodynamical effects of the triple into account. - I am perplexed as to the meaning of (1) when there is no (2)? More broadly, this seems like an oddly specific issue with which to start this section. The next sentence in the paragraph seems like the more reasonable starting point?
 
 SPZ/NL:  This text has now been edited accordingly.
 
 quanti[fy] the amount of material los[s], 
+
 SPZ/NL:  Fixed.
 
 This value is hard to estimate from the simulations, but an accretion efficiency of ∼> 0.6 is necessary to make the scenario feasible. - Please clarify what is meant by "feasible"? Does this mean feasible technically, or feasible in making the two blue stragglers, or ... ?
@@ -312,7 +297,7 @@ Specific notes on the abstract:
 
 Broadly speaking, the abstract is rather unusual in that it is not at all an abstract of the paper but rather a restatement of the predictions in the current Summary. As I wrote above, it is very good that the authors are making explicit predictions. But an abstract is intended to permit a reader to be informed about the entire essential content of a paper, and as such this abstract does not seem appropriately constructed.
 
-SPZ/NL: We think that abstract maybe a bit controversial in comparison
+SPZ/NL: We think that the abstract maybe a bit controversial in comparison
 with other abstracts, but we think that it covers the content of the
 paper and the presented work.
 
