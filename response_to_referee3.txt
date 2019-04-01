@@ -1,0 +1,118 @@
+
+>> I have two significant points. 
+
+>> First, I very much disagree with their response to my comment about
+>> their abstract. (Second to last comment in my review.) But this can
+>> be an editorial decision on the intended nature and purpose of
+>> abstracts.
+
+>> [Ed: your abstract should certainly give readers a good overview of
+>> the results, within the 250-word limit, which we still enforce
+>> strictly, while our other nominal Letters length limits are now
+>> treated as flexible. ]
+
+Okay, we rewrote the abstract.
+
+>> Second ...
+
+>> >> SPZ/NL: Our apologies, since we were not very clear about this. The
+>> >> scenario only works for donors on the giant branch; not on the
+>> >> Hertzsprung- gap and not on the AGB. We have now made that clear in
+>> >> fig. 3 by painting these parts of the curve indicating the stellar
+>> >> radius orange.
+
+
+>> ** I now am more confused on this point. First, both point 5 in the
+>> ** Discussion and the abstract say: Consequently, the dominant
+>> ** accretor is enriched more effectively by the accreted material,
+>> ** and one of the BSs will be more enriched by either CNO-processed
+>> ** or s-process elements, depending on whether the donor started to
+>> ** overflow its Roche lobe along the red giant or asymptotic giant
+>> ** branch, respectively.
+
+>> This would seem to indicate that an AGB star can be the donor? I
+>> have a feeling that I am missing something.
+
+>> Second, it is a bit strange that this significant physical point -
+>> that this scenario only works for giant donors - is made in a
+>> figure caption, without explanation.
+
+We do not think that there is reason for confusion. we wrote: "...,
+  but if the donor is an AGB star the enrichment will be mostly in
+  s-process elements." For BSS 7782 we exclude this possibility, but
+  for other twin blue stragglers we cannot disprove that the donor
+  could be an AGB star. In those cases the enrichment of the blue
+  stragglers will be different.  But since we do not discuss this any
+  further in the paper, it may be better to remove the "s-processed
+  element" remark.
+
+>> Finally, something is wrong with the composition of the second
+>> sentence in bold in the caption of Figure 3?
+
+....
+
+>> Other things:
+
+>> >> SPZ/NL: Our prime objective is to demonstrate that this scenario
+>>    works. We do not really desire to cover parameter space or indicate
+>>    in which part of parameter space this scenario works. This may be
+>>    very interesting, but for a future paper.
+
+>> ** I agree with this strategy. I would suggest that it is worth saying this in the paper. 
+
+Ok. At the end of the introduction, we added a remark to this extend.
+
+>> SPZ/NL: This means feasible in terms of being able to reproduce the
+   observed parameters of the system (or at least parameters
+   consistent with the available observational data), such as
+   sufficient mass accretion to drive both stars in the inner binary
+   toward a mass ratio of unity. The most extreme mass ratio of 1.1+
+   0.5Msun for the inner binary with an 1.4MSun donor could in
+   principle lead to two 1.4MSun blue stragglers, but in that case
+   mass transfer has to be conservative. In our simulations, only a
+   fraction of the mass lost from the donor is accreted by the two
+   companion stars. We cannot exclude the possibility that even mass
+   that appears to be ejected from the system eventually falls
+   back. However, our simulations did not last sufficiently long to
+   validate this point. We prefer to remain somewhat conservative (no
+   pun intended).
+
+>> ** This question was not just for me, but also for the reader. I would suggest adding only the words in the first sentence of the above response.
+
+Okay, we clarified this in the text..
+
+>> "By the end of the simulations the spin of the primary is about
+   50.5 rotations per day, and 41.5 rotations per day for the
+   secondary star." - The authors might want to reference Leiner et
+   al. 2018 for observational "confirmation" of these spin rates early
+   in the lifetime of mass transfer products. Similarly, the current
+   stars are not spinning this fast. Some explanation is merited.
+
+>> SPZ/NL: We do not have sufficient space to elaborate on these
+   points in great detail, but magnetic braking has been proposed to
+   explain the spin- down of the accretors post-mass transfer, which
+   could render their â€œfinalâ€ spin rates in better agreement with
+   the observations. We have included a brief sentence to better
+   explain this, and referenced Leiner et al. 2018 to support it.
+
+>> ** I'm puzzled for I don't see this reference? If the authors
+      decided not to use it, that is up to them, but the manuscript is
+      not consistent with their response.
+
+Hmm. this was an ommission on our side. We included it again.
+
+
+>> The remaining two points of the current Section 5: Discussion are
+>> mildly interesting, but could be removed if length is an issue.
+
+>> ** Fine with me. I only note that the Letter is getting long.
+
+okay. we removed the points.
+
+
+>> SPZ/NL: We have included a sentence here explaining how this relates directly to a prediction for a comparable final orbital period for the proposed outer tertiary. 
+
+
+>> Broadly speaking, the abstract is rather unusual in that it is not at all an abstract of the paper but rather a restatement of the predictions in the current Summary. As I wrote above, it is very good that the authors are making explicit predictions. But an abstract is intended to permit a reader to be informed about the entire essential content of a paper, and as such this abstract does not seem appropriately constructed. 
+
+We rewrote the abstract.
