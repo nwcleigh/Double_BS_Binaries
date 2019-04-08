@@ -43,13 +43,13 @@ We do not think that there is reason for confusion. we wrote: "...,
   for other twin blue stragglers we cannot disprove that the donor
   could be an AGB star. In those cases the enrichment of the blue
   stragglers will be different.  But since we do not discuss this any
-  further in the paper, it may be better to remove the "s-processed
+  further in the paper, we have removed the "s-processed
   element" remark.
 
 >> Finally, something is wrong with the composition of the second
 >> sentence in bold in the caption of Figure 3?
 
-....
+Yes, we corrected this.
 
 >> Other things:
 
@@ -60,7 +60,7 @@ We do not think that there is reason for confusion. we wrote: "...,
 
 >> ** I agree with this strategy. I would suggest that it is worth saying this in the paper. 
 
-Ok. At the end of the introduction, we added a remark to this extend.
+Ok. At the end of the introduction, we added a remark to this extent.
 
 >> SPZ/NL: This means feasible in terms of being able to reproduce the
    observed parameters of the system (or at least parameters
@@ -107,7 +107,7 @@ Hmm. this was an ommission on our side. We included it again.
 
 >> ** Fine with me. I only note that the Letter is getting long.
 
-okay. we removed the points.
+Okay. We removed these points.
 
 
 >> SPZ/NL: We have included a sentence here explaining how this relates directly to a prediction for a comparable final orbital period for the proposed outer tertiary. 
